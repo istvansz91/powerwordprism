@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#HasLexicalization -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#HasLexicalization"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Affliction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Affliction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warlock"/>
+        <hasLexicalization>Affli</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arcane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arcane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warrior"/>
+        <hasLexicalization>Arm</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Assassination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Assassination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Rogue"/>
+        <hasLexicalization>envenom</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Balance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Balance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid"/>
+        <hasLexicalization>boomkin</hasLexicalization>
+        <hasLexicalization>moonkin</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Beast_Mastery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Beast_Mastery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hunter"/>
+        <hasLexicalization>BM</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Death_Knight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Brewmaster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Brewmaster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Monk"/>
+        <hasLexicalization>bm</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Death_Knight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Death_Knight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+        <hasLexicalization>DK</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demon_Hunter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demon_Hunter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+        <hasLexicalization>DH</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demonology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demonology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warlock"/>
+        <hasLexicalization>Demo</hasLexicalization>
+        <hasLexicalization>Demon</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Destruction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Destruction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warlock"/>
+        <hasLexicalization>Destro</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Discipline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Discipline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Priest"/>
+        <hasLexicalization>disco</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+        <hasLexicalization>dudu</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Elemental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Elemental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shaman"/>
+        <hasLexicalization>ele</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Enhancement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Enhancement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shaman"/>
+        <hasLexicalization>enh</hasLexicalization>
+        <hasLexicalization>enhance</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Feral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Feral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid"/>
+        <hasLexicalization>cat</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Fr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Fr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Death_Knight"/>
+        <hasLexicalization>Frost</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Frost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Frost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Fury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Fury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warrior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Guardian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Guardian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid"/>
+        <hasLexicalization>tank</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#H -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#H">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Paladin"/>
+        <hasLexicalization>Holy</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Havoc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Havoc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demon_Hunter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Holy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Holy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Priest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hunter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hunter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+        <hasLexicalization>hunt</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Markmanship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Markmanship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hunter"/>
+        <hasLexicalization>MM</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mistweaver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mistweaver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Monk"/>
+        <hasLexicalization>mw</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Monk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Monk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Outlaw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Outlaw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Rogue"/>
+        <hasLexicalization>Combat</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Paladin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Paladin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+        <hasLexicalization>pala</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Priest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Priest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Prot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Prot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Paladin"/>
+        <hasLexicalization>Protection</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warrior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Resto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Resto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid"/>
+        <hasLexicalization>Restoration</hasLexicalization>
+        <hasLexicalization>tree</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Restoration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Restoration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shaman"/>
+        <hasLexicalization>Resto</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Retribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Retribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Paladin"/>
+        <hasLexicalization>retri</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Rogue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Rogue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shadow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shadow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Priest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shaman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shaman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+        <hasLexicalization>Shammy</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Subtlety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Subtlety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Rogue"/>
+        <hasLexicalization>subtle</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Survival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Survival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hunter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Unholy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Unholy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Death_Knight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Vengeance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Vengeance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demon_Hunter"/>
+        <hasLexicalization>Veng</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warlock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warlock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+        <hasLexicalization>lock</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warrior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warrior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"/>
+        <hasLexicalization>warr</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Windwalker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Windwalker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Monk"/>
+        <hasLexicalization>ww</hasLexicalization>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass">
+        <rdfs:comment>Warlock</rdfs:comment>
+        <rdfs:comment>Warrior</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Protection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Protection">
+        <HasLexicalization>Prot</HasLexicalization>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Protection">
+        <hasLexicalization>Prot</hasLexicalization>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
