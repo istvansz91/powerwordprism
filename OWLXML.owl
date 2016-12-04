@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-2" IRI="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#"/>
+    <Declaration>
+        <Class IRI="#Destruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shaman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rogue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beast_Mastery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elemental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Druid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#H"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arcane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demon_Hunter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mistweaver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Affliction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Holy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demonology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shadow"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warrior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guardian"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasLexicalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Death_Knight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paladin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Markmanship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assassination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enhancement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discipline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outlaw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unholy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warlock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windwalker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WowClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brewmaster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Havoc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Retribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vengeance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restoration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subtlety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hunter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resto"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Affliction"/>
+        <Class IRI="#Warlock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arcane"/>
+        <Class IRI="#Mage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arms"/>
+        <Class IRI="#Warrior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assassination"/>
+        <Class IRI="#Rogue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balance"/>
+        <Class IRI="#Druid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beast_Mastery"/>
+        <Class IRI="#Hunter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blood"/>
+        <Class IRI="#Death_Knight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brewmaster"/>
+        <Class IRI="#Monk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Death_Knight"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Demon_Hunter"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Demonology"/>
+        <Class IRI="#Warlock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destruction"/>
+        <Class IRI="#Warlock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discipline"/>
+        <Class IRI="#Priest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Druid"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elemental"/>
+        <Class IRI="#Shaman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enhancement"/>
+        <Class IRI="#Shaman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feral"/>
+        <Class IRI="#Druid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire"/>
+        <Class IRI="#Mage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fr"/>
+        <Class IRI="#Death_Knight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frost"/>
+        <Class IRI="#Mage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fury"/>
+        <Class IRI="#Warrior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guardian"/>
+        <Class IRI="#Druid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#H"/>
+        <Class IRI="#Paladin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Havoc"/>
+        <Class IRI="#Demon_Hunter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Holy"/>
+        <Class IRI="#Priest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hunter"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mage"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Markmanship"/>
+        <Class IRI="#Hunter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mistweaver"/>
+        <Class IRI="#Monk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monk"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outlaw"/>
+        <Class IRI="#Rogue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paladin"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priest"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prot"/>
+        <Class IRI="#Paladin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protection"/>
+        <Class IRI="#Warrior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resto"/>
+        <Class IRI="#Druid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restoration"/>
+        <Class IRI="#Shaman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Retribution"/>
+        <Class IRI="#Paladin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rogue"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shadow"/>
+        <Class IRI="#Priest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shaman"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subtlety"/>
+        <Class IRI="#Rogue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Survival"/>
+        <Class IRI="#Hunter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unholy"/>
+        <Class IRI="#Death_Knight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vengeance"/>
+        <Class IRI="#Demon_Hunter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warlock"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warrior"/>
+        <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windwalker"/>
+        <Class IRI="#Monk"/>
+    </SubClassOf>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasLexicalization"/>
+        <NamedIndividual IRI="#Protection"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prot</Literal>
+    </DataPropertyAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Affliction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Affli</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Arms</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Assassination</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">envenom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Balance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">boomkin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Balance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">moonkin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Beast_Mastery</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Brewmaster</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Death_Knight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Demon_Hunter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Demonology</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Demo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Demonology</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Demon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Destruction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Destro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Discipline</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">disco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Druid</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dudu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Elemental</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ele</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Enhancement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">enh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Enhancement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">enhance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Feral</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Fr</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Frost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Guardian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#H</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Holy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Hunter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hunt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Markmanship</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Mistweaver</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mw</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Outlaw</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Combat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Paladin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pala</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Prot</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Protection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Protection</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Resto</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Restoration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Resto</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Restoration</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Resto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Retribution</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">retri</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Shaman</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shammy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Subtlety</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">subtle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Vengeance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Veng</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Warlock</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Warrior</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">warr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Windwalker</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ww</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WowClass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Warlock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WowClass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Warrior</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
