@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2">
-    <Prefix name="" IRI="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -14,13 +14,16 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="untitled-ontology-2" IRI="http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#"/>
     <Declaration>
+        <Class IRI="#Blood_Furnace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uldaman"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Destruction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Shaman"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rogue"/>
@@ -29,22 +32,28 @@
         <Class IRI="#Beast_Mastery"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Elemental"/>
+        <Class IRI="#Terrace_of_Endless_Spring"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Druid"/>
+        <Class IRI="#Drak&apos;Tharon_Keep"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#H"/>
+        <Class IRI="#Lower_Blackrock_Spire"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Arcane"/>
+        <Class IRI="#Icecrown_Citadel"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Prot"/>
+        <Class IRI="#Magisters&apos;_Terrace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sethekk_Halls"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Demon_Hunter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hour_of_Twilight"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fire"/>
@@ -53,19 +62,31 @@
         <Class IRI="#Arms"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Priest"/>
+        <Class IRI="#Razorfen_Kraul"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mistweaver"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#The_Sunwell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Upper_Blackrock_Spire_(WoD)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escape_from_Durnholde_Keep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black_Rook_Hold"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Protection"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Affliction"/>
+        <Class IRI="#Scarlet_Halls_(mists)"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Balance"/>
+        <Class IRI="#Blackrock_Caverns"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Survival"/>
@@ -74,19 +95,31 @@
         <Class IRI="#Holy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Demonology"/>
+        <Class IRI="#Vault_of_the_Wardens"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Shadow"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Zul&apos;Farrak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demonology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ahn&apos;kahet:_The_Old_Kingdom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Naxxramas"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="#hasLexicalization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Warrior"/>
+        <Class IRI="#End_Time"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Protection"/>
+        <Class IRI="#Warrior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Guardian"/>
@@ -95,25 +128,43 @@
         <DataProperty IRI="#HasLexicalization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Death_Knight"/>
+        <Class IRI="#Culling_of_Stratholme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oculus"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fury"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Frost"/>
+        <Class IRI="#Paladin"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Paladin"/>
+        <Class IRI="#Scholomance_(mist)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Karazhan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Mechanar"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Markmanship"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Assassination"/>
+        <Class IRI="#Botanica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Onyxia&apos;s_Lair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Arcway"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Monk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blackwing_Lair"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Enhancement"/>
@@ -122,31 +173,82 @@
         <Class IRI="#Discipline"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Ruins_of_Ahn&apos;Qiraj"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Outlaw"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Unholy"/>
+        <Class IRI="#Well_of_Eternity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scarlet_Monastery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Halls_of_Stone"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Warlock"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Dungeon"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Windwalker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shattered_Halls"/>
     </Declaration>
     <Declaration>
         <Class IRI="#WowClass"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Dire_Maul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shadow_Labyrinth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scholomance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shadowfang_Keep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trial_of_Valor"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Brewmaster"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Havoc"/>
+        <Class IRI="#Steamvault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Court_of_Stars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molten_Core"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forge_of_Souls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Emerald_Nightmare"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Retribution"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Zul&apos;Aman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Throne_of_the_Tides"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Darkheart_Thicket"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Vengeance"/>
@@ -155,19 +257,319 @@
         <Class IRI="#Feral"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Utgarde_Keep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Razorfen_Downs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Deadmines_Heroic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Stonecore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Bastion_of_Twilight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Battle_for_Mount_Hyjal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hunter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Firelands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempest_Keep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dragon_Soul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auchenai_Crypts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pit_of_Saron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blackrock_Depths"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mogu&apos;shan_Vaults"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shado-Pan_Monastery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blackrock_Foundry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shaman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mogu&apos;shan_Palace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bloodmaul_Slag_Mines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arcatraz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Halls_of_Origination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Halls_of_Lightning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shadowmoon_Burial_Grounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black_Temple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Violet_Hold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mana_Tombs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slave_Pens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Azjol-Nerub:_Azjol_Nerub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elemental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Druid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#H"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart_of_Fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temple_of_the_Jade_Serpent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auchindoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obsidian_Sanctum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ruby_Sanctum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arcane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grim_Batol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wailing_Caverns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stormstout_Brewery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Return_to_Karazhan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Throne_of_Thunder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vault_of_Archavon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Siege_of_Niuzao_Temple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Affliction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eye_of_Eternity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Nexus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Vortex_Pinnacle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hellfire_Ramparts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serpentshrine_Covern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zul&apos;Gurub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gruul&apos;s_Lair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Siege_of_Orgrimmar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eye_of_Azshara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sunken_Temple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maw_of_Souls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gnomeregan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Upper_Blackrock_Spire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grimrail_Depot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blackfathom_Deeps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stormwind_Stockade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ulduar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Death_Knight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baradin_Hold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stratholme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shadowfang_Keep_Heroic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gate_of_the_Setting_Sun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iron_Docks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assassination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Everbloom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Violet_Hold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lost_City_of_the_Tol&apos;vir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temple_of_Ahn&apos;Qiraj"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magtheridon&apos;s_Lair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Underbog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scarlet_Monastery_(mist)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unholy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trial_of_the_Champion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maraudon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Deadmines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gundrak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scarlet_Halls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Halls_of_Reflection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Throne_of_the_Four_Winds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crusaders&apos;_Coliseum:_Trial_of_the_Crusader"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opening_the_Dark_Portal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Havoc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neltharion&apos;s_Lair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hellfire_Citadel"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Restoration"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Subtlety"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Hunter"/>
+        <Class IRI="#Nighthold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Highmaul"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fr"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Resto"/>
+        <Class IRI="#Halls_of_Valor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skyreach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ragefire_Chashm"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Affliction"/>
@@ -178,6 +580,10 @@
         <Class IRI="#Mage"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Arcatraz"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Arms"/>
         <Class IRI="#Warrior"/>
     </SubClassOf>
@@ -186,20 +592,84 @@
         <Class IRI="#Rogue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Auchenai_Crypts"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auchindoun"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Balance"/>
         <Class IRI="#Druid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baradin_Hold"/>
+        <Class IRI="#Raid"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Beast_Mastery"/>
         <Class IRI="#Hunter"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Black_Rook_Hold"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Temple"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blackfathom_Deeps"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blackrock_Caverns"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blackrock_Depths"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blackrock_Foundry"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blackwing_Lair"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Blood"/>
         <Class IRI="#Death_Knight"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Blood_Furnace"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bloodmaul_Slag_Mines"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Botanica"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Brewmaster"/>
         <Class IRI="#Monk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Court_of_Stars"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Culling_of_Stratholme"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Darkheart_Thicket"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Death_Knight"/>
@@ -218,20 +688,48 @@
         <Class IRI="#Warlock"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Dire_Maul"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Discipline"/>
         <Class IRI="#Priest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dragon_Soul"/>
+        <Class IRI="#Raid"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Druid"/>
         <Class IRI="#WowClass"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Dungeon"/>
+        <Class IRI="#Instance"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Elemental"/>
         <Class IRI="#Shaman"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#End_Time"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Enhancement"/>
         <Class IRI="#Shaman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escape_from_Durnholde_Keep"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eye_of_Azshara"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eye_of_Eternity"/>
+        <Class IRI="#Raid"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Feral"/>
@@ -240,6 +738,14 @@
     <SubClassOf>
         <Class IRI="#Fire"/>
         <Class IRI="#Mage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firelands"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forge_of_Souls"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fr"/>
@@ -254,40 +760,152 @@
         <Class IRI="#Warrior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Gate_of_the_Setting_Sun"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gnomeregan"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grim_Batol"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grimrail_Depot"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Guardian"/>
         <Class IRI="#Druid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gundrak"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#H"/>
         <Class IRI="#Paladin"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Halls_of_Lightning"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Halls_of_Origination"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Halls_of_Reflection"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Halls_of_Stone"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Halls_of_Valor"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Havoc"/>
         <Class IRI="#Demon_Hunter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_of_Fear"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hellfire_Citadel"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hellfire_Ramparts"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Highmaul"/>
+        <Class IRI="#Raid"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Holy"/>
         <Class IRI="#Priest"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Hour_of_Twilight"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Hunter"/>
         <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Icecrown_Citadel"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iron_Docks"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Karazhan"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lower_Blackrock_Spire"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mage"/>
         <Class IRI="#WowClass"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Mana_Tombs"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maraudon"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Markmanship"/>
         <Class IRI="#Hunter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maw_of_Souls"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mistweaver"/>
         <Class IRI="#Monk"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Molten_Core"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Monk"/>
         <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Naxxramas"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nighthold"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obsidian_Sanctum"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oculus"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opening_the_Dark_Portal"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Outlaw"/>
@@ -296,6 +914,10 @@
     <SubClassOf>
         <Class IRI="#Paladin"/>
         <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pit_of_Saron"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Priest"/>
@@ -310,6 +932,22 @@
         <Class IRI="#Warrior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ragefire_Chashm"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raid"/>
+        <Class IRI="#Instance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Razorfen_Downs"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Razorfen_Kraul"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Resto"/>
         <Class IRI="#Druid"/>
     </SubClassOf>
@@ -322,32 +960,240 @@
         <Class IRI="#Paladin"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Return_to_Karazhan"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Rogue"/>
         <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ruby_Sanctum"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scarlet_Halls"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scarlet_Monastery"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scholomance"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serpentshrine_Covern"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sethekk_Halls"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shado-Pan_Monastery"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Shadow"/>
         <Class IRI="#Priest"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Shadow_Labyrinth"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shadowfang_Keep"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shadowfang_Keep_Heroic"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shadowmoon_Burial_Grounds"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Shaman"/>
         <Class IRI="#WowClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shattered_Halls"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siege_of_Niuzao_Temple"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siege_of_Orgrimmar"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skyreach"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slave_Pens"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steamvault"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stormstout_Brewery"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stormwind_Stockade"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stratholme"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Subtlety"/>
         <Class IRI="#Rogue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Sunken_Temple"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Survival"/>
         <Class IRI="#Hunter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempest_Keep"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temple_of_the_Jade_Serpent"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrace_of_Endless_Spring"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Arcway"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Bastion_of_Twilight"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Battle_for_Mount_Hyjal"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Deadmines"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Deadmines_Heroic"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Emerald_Nightmare"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Everbloom"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Mechanar"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Nexus"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Stonecore"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Sunwell"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Violet_Hold"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Vortex_Pinnacle"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Throne_of_Thunder"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Throne_of_the_Four_Winds"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Throne_of_the_Tides"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trial_of_Valor"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trial_of_the_Champion"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uldaman"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ulduar"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Underbog"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Unholy"/>
         <Class IRI="#Death_Knight"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Upper_Blackrock_Spire"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utgarde_Keep"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vault_of_Archavon"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vault_of_the_Wardens"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Vengeance"/>
         <Class IRI="#Demon_Hunter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Violet_Hold"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wailing_Caverns"/>
+        <Class IRI="#Dungeon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Warlock"/>
@@ -358,8 +1204,96 @@
         <Class IRI="#WowClass"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Well_of_Eternity"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Windwalker"/>
         <Class IRI="#Monk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ahn&apos;kahet:_The_Old_Kingdom"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Azjol-Nerub:_Azjol_Nerub"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crusaders&apos;_Coliseum:_Trial_of_the_Crusader"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drak&apos;Tharon_Keep"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gruul&apos;s_Lair"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lost_City_of_the_Tol&apos;vir"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magisters&apos;_Terrace"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magtheridon&apos;s_Lair"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mogu&apos;shan_Palace"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mogu&apos;shan_Vaults"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neltharion&apos;s_Lair"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onyxia&apos;s_Lair"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ruins_of_Ahn&apos;Qiraj"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scarlet_Halls_(mists)"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scarlet_Monastery_(mist)"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scholomance_(mist)"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temple_of_Ahn&apos;Qiraj"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Upper_Blackrock_Spire_(WoD)"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zul&apos;Aman"/>
+        <Class IRI="#Raid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zul&apos;Farrak"/>
+        <Class IRI="#Dungeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zul&apos;Gurub"/>
+        <Class IRI="#Raid"/>
     </SubClassOf>
     <DataPropertyAssertion>
         <DataProperty IRI="#HasLexicalization"/>
@@ -373,6 +1307,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Arcatraz</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Arc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Arms</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Arm</Literal>
     </AnnotationAssertion>
@@ -380,6 +1319,16 @@
         <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Assassination</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">envenom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Auchenai_Crypts</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Auchindoun</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Auch</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -393,13 +1342,98 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Baradin_Hold</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Beast_Mastery</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BM</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Black_Rook_Hold</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BRH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Black_Temple</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Blackfathom_Deeps</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Blackrock_Caverns</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BRC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Blackrock_Depths</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BRD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Blackrock_Foundry</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Blackrock_Foundry</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BRF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Blackwing_Lair</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BWL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Blood_Furnace</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Bloodmaul_Slag_Mines</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BSM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Botanica</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Brewmaster</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Court_of_Stars</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CoS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Culling_of_Stratholme</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">COS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Culling_of_Stratholme</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Culling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Darkheart_Thicket</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DHT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Darkheart_Thicket</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -428,8 +1462,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Dire_Maul</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DM East</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Dire_Maul</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DM Warpwood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Discipline</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">disco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Dragon_Soul</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -443,6 +1492,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#End_Time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ET</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Enhancement</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">enh</Literal>
     </AnnotationAssertion>
@@ -453,8 +1507,58 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Escape_from_Durnholde_Keep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Escape_from_Durnholde_Keep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Escape_from_Durnholde_Keep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Durn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Escape_from_Durnholde_Keep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Eye_of_Azshara</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EoZ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Eye_of_Eternity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EoE10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Eye_of_Eternity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EoE25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Eye_of_Eternity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Feral</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Firelands</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Forge_of_Souls</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FoS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -463,8 +1567,33 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Gate_of_the_Setting_Sun</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GSS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Gnomeregan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gnomer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Grim_Batol</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Grimrail_Depot</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Guardian</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Gundrak</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -473,8 +1602,88 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Halls_of_Lightning</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HOL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Halls_of_Origination</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HoO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Halls_of_Reflection</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HoR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Halls_of_Stone</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Halls_of_Valor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HoV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Heart_of_Fear</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HoF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Hellfire_Citadel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Hellfire_Citadel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HFC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Hellfire_Ramparts</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ramps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Highmaul</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Hour_of_Twilight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HoT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Hunter</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hunt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Icecrown_Citadel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ICC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Karazhan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Lower_Blackrock_Spire</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LBRS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Mana_Tombs</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Maraudon</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -483,8 +1692,58 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Maw_of_Souls</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MoS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Mistweaver</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mw</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Molten_Core</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Naxxramas</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Naxx10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Naxxramas</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Naxx25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Nighthold</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Obsidian_Sanctum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Obsidian_Sanctum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sarth10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Obsidian_Sanctum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sarth25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Oculus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Occ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Opening_the_Dark_Portal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BM</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -498,6 +1757,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Pit_of_Saron</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PoS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Prot</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Protection</Literal>
     </AnnotationAssertion>
@@ -505,6 +1769,21 @@
         <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Protection</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ragefire_Chashm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RFC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Razorfen_Downs</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RFD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Razorfen_Kraul</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RFK</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -528,8 +1807,158 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Return_to_Karazhan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RtK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ruby_Sanctum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hal10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ruby_Sanctum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hal25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ruby_Sanctum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ruby_Sanctum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RS10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ruby_Sanctum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RS25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Scarlet_Halls</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Scarlet_Monastery</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Scholomance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Scholo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Serpentshrine_Covern</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SSC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Sethekk_Halls</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Sethekk_Halls</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Seth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Sethekk_Halls</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Seth Halls</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Shado-Pan_Monastery</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SPM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Shadow_Labyrinth</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Shadow_Labyrinth</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Slabs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Shadowfang_Keep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SFK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Shadowfang_Keep_Heroic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">H-SFK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Shadowmoon_Burial_Grounds</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SBG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Shaman</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shammy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Shattered_Halls</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Shattered_Halls</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shatt Halls</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Siege_of_Niuzao_Temple</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SNT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Siege_of_Orgrimmar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SoO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Skyreach</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Slave_Pens</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Steamvault</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Stormstout_Brewery</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Stormwind_Stockade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stockade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Stormwind_Stockade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stocks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Stratholme</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Strat</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -538,8 +1967,198 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Sunken_Temple</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Sunken_Temple</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ST</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Tempest_Keep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Temple_of_the_Jade_Serpent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TJS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Terrace_of_Endless_Spring</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TES</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Arcway</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">arc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Bastion_of_Twilight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BoT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Deadmines</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Deadmines</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Deadmines_Heroic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">H-DM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Deadmines_Heroic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">H-VC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Emerald_Nightmare</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Everbloom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Mechanar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mech</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Nexus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Nexus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nexus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Stonecore</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Violet_Hold</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#The_Vortex_Pinnacle</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Throne_of_Thunder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ToT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Throne_of_the_Four_Winds</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TFW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Throne_of_the_Tides</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TotT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Trial_of_Valor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ToV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Trial_of_the_Champion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Champ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Trial_of_the_Champion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ToC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Uldaman</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ulda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ulduar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uld10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ulduar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uld25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Underbog</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Upper_Blackrock_Spire</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UBRS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Utgarde_Keep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Utgarde_Keep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UTK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Vault_of_Archavon</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vault</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Vault_of_Archavon</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VoA10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Vault_of_Archavon</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VoA25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Vault_of_the_Wardens</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VoW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Vengeance</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Veng</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Violet_Hold</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Wailing_Caverns</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -550,6 +2169,11 @@
         <AnnotationProperty IRI="#hasLexicalization"/>
         <IRI>#Warrior</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">warr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Well_of_Eternity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WoE</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasLexicalization"/>
@@ -565,6 +2189,206 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#WowClass</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Warrior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ahn&apos;kahet:_The_Old_Kingdom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AKO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ahn&apos;kahet:_The_Old_Kingdom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ANK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ahn&apos;kahet:_The_Old_Kingdom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ahn&apos;kahet:_The_Old_Kingdom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OLD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Azjol-Nerub:_Azjol_Nerub</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Azjol-Nerub:_Azjol_Nerub</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AZN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Crusaders&apos;_Coliseum:_Trial_of_the_Crusader</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Crusaders&apos;_Coliseum:_Trial_of_the_Crusader</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ToC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Crusaders&apos;_Coliseum:_Trial_of_the_Crusader</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ToC10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Crusaders&apos;_Coliseum:_Trial_of_the_Crusader</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ToC25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Crusaders&apos;_Coliseum:_Trial_of_the_Crusader</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ToGC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Crusaders&apos;_Coliseum:_Trial_of_the_Crusader</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TotC10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Crusaders&apos;_Coliseum:_Trial_of_the_Crusader</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TotC25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Drak&apos;Tharon_Keep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DTK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Gruul&apos;s_Lair</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Lost_City_of_the_Tol&apos;vir</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LCoT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Magisters&apos;_Terrace</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MgT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Magisters&apos;_Terrace</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MrT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Magisters&apos;_Terrace</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Terrace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Magtheridon&apos;s_Lair</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ML</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Mogu&apos;shan_Palace</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Mogu&apos;shan_Vaults</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Neltharion&apos;s_Lair</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Onyxia&apos;s_Lair</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ony10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Onyxia&apos;s_Lair</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ony25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ruins_of_Ahn&apos;Qiraj</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AQ10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Ruins_of_Ahn&apos;Qiraj</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RAQ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Scarlet_Halls_(mists)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Scarlet_Halls_(mists)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Scarlet Halls</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Scarlet_Monastery_(mist)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Scarlet_Monastery_(mist)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Scarlet Monastery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Scholomance_(mist)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Scholo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Scholomance_(mist)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Scholomance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Temple_of_Ahn&apos;Qiraj</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AQ40</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Temple_of_Ahn&apos;Qiraj</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TAQ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Upper_Blackrock_Spire_(WoD)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UBRS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Upper_Blackrock_Spire_(WoD)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Upper Blackrock Spire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Zul&apos;Aman</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ZA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Zul&apos;Farrak</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ZF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasLexicalization"/>
+        <IRI>#Zul&apos;Gurub</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ZG</Literal>
     </AnnotationAssertion>
 </Ontology>
 
