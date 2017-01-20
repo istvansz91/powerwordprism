@@ -1,0 +1,1928 @@
+[{
+  "@id" : "Affliction",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Affli"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Warlock"
+  } ]
+}, {
+  "@id" : "Ahn'kahet:_The_Old_Kingdom",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "AKO"
+  }, {
+    "@value" : "ANK"
+  }, {
+    "@value" : "OK"
+  }, {
+    "@value" : "OLD"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Alterac_Valley",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "AV"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Arathi_Basin",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "AB"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Arcane",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Mage"
+  } ]
+}, {
+  "@id" : "Arcatraz",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Arc"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Arena",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "2s"
+  }, {
+    "@value" : "2v2"
+  }, {
+    "@value" : "3s"
+  }, {
+    "@value" : "3v3"
+  }, {
+    "@value" : "5s"
+  }, {
+    "@value" : "5v5"
+  }, {
+    "@value" : "rated"
+  }, {
+    "@value" : "skirmish"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Instance"
+  } ]
+}, {
+  "@id" : "Arms",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Arm"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Warrior"
+  } ]
+}, {
+  "@id" : "Ashamane's_Fall",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Ashamanes Fall"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Arena"
+  } ]
+}, {
+  "@id" : "Assassination",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "envenom"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Rogue"
+  } ]
+}, {
+  "@id" : "Auchenai_Crypts",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "AC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Auchindoun",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Auch"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Azjol-Nerub:_Azjol_Nerub",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "AN"
+  }, {
+    "@value" : "AZN"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Balance",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "boomkin"
+  }, {
+    "@value" : "moonkin"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Druid"
+  } ]
+}, {
+  "@id" : "Baradin_Hold",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BH"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Battleground",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "bg"
+  }, {
+    "@value" : "ranked"
+  }, {
+    "@value" : "rbg"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Instance"
+  } ]
+}, {
+  "@id" : "Beast_Mastery",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BM"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Hunter"
+  } ]
+}, {
+  "@id" : "Black_Rook_Hold",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BRH"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Black_Rook_Hold_Arena",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BRH Arena"
+  }, {
+    "@value" : "Black Rook"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Arena"
+  } ]
+}, {
+  "@id" : "Black_Temple",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BT"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Blackfathom_Deeps",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BFD"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Blackrock_Caverns",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BRC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Blackrock_Depths",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BRD"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Blackrock_Foundry",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BF"
+  }, {
+    "@value" : "BRF"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Blackwing_Lair",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BWL"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Blade's_Edge_Arena",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Blades Edge"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Arena"
+  } ]
+}, {
+  "@id" : "Blood",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Death_Knight"
+  } ]
+}, {
+  "@id" : "Blood_Furnace",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BF"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Bloodmaul_Slag_Mines",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BSM"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Botanica",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Bot"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Brewmaster",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "bm"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Monk"
+  } ]
+}, {
+  "@id" : "Court_of_Stars",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "CoS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Crusaders'_Coliseum:_Trial_of_the_Crusader",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "TC"
+  }, {
+    "@value" : "ToC"
+  }, {
+    "@value" : "ToC10"
+  }, {
+    "@value" : "ToC25"
+  }, {
+    "@value" : "ToGC"
+  }, {
+    "@value" : "TotC10"
+  }, {
+    "@value" : "TotC25"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Culling_of_Stratholme",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "COS"
+  }, {
+    "@value" : "Culling"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Dalaran_Arena",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Sewers"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Arena"
+  } ]
+}, {
+  "@id" : "Darkheart_Thicket",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "DHT"
+  }, {
+    "@value" : "DT"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Death_Knight",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "DK"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Deepwind_Gorge",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "DG"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Demon_Hunter",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "DH"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Demonology",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Demo"
+  }, {
+    "@value" : "Demon"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Warlock"
+  } ]
+}, {
+  "@id" : "Destruction",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Destro"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Warlock"
+  } ]
+}, {
+  "@id" : "Dire_Maul",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "DM East"
+  }, {
+    "@value" : "DM Warpwood"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Discipline",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "disco"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Priest"
+  } ]
+}, {
+  "@id" : "Dragon_Soul",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "DS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Drak'Tharon_Keep",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "DTK"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Druid",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "dudu"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Dungeon",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Instance"
+  } ]
+}, {
+  "@id" : "Elemental",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ele"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Shaman"
+  } ]
+}, {
+  "@id" : "End_Time",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ET"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Enhancement",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "enh"
+  }, {
+    "@value" : "enhance"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Shaman"
+  } ]
+}, {
+  "@id" : "Escape_from_Durnholde_Keep",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "DH"
+  }, {
+    "@value" : "DK"
+  }, {
+    "@value" : "Durn"
+  }, {
+    "@value" : "OH"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Eye_of_Azshara",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "EoZ"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Eye_of_Eternity",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "EoE10"
+  }, {
+    "@value" : "EoE25"
+  }, {
+    "@value" : "Maly"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Eye_of_the_Storm",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "EotS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Feral",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "cat"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Druid"
+  } ]
+}, {
+  "@id" : "Fire",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Mage"
+  } ]
+}, {
+  "@id" : "Firelands",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "FL"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Forge_of_Souls",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "FoS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Fr",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Frost"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Death_Knight"
+  } ]
+}, {
+  "@id" : "Frost",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Mage"
+  } ]
+}, {
+  "@id" : "Fury",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Warrior"
+  } ]
+}, {
+  "@id" : "Gate_of_the_Setting_Sun",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "GSS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Gnomeregan",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Gnomer"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Grim_Batol",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "GB"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Grimrail_Depot",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "GD"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Gruul's_Lair",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "GL"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Guardian",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "tank"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Druid"
+  } ]
+}, {
+  "@id" : "Gundrak",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "GD"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "H",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Holy"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Paladin"
+  } ]
+}, {
+  "@id" : "Halls_of_Lightning",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "HOL"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Halls_of_Origination",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "HoO"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Halls_of_Reflection",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "HoR"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Halls_of_Stone",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "HOS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Halls_of_Valor",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "HoV"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Havoc",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Demon_Hunter"
+  } ]
+}, {
+  "@id" : "Heart_of_Fear",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "HoF"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Hellfire_Citadel",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "HC"
+  }, {
+    "@value" : "HFC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Hellfire_Ramparts",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Ramps"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Highmaul",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "HM"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Holy",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Priest"
+  } ]
+}, {
+  "@id" : "Hour_of_Twilight",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "HoT"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Hunter",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "hunt"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Icecrown_Citadel",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ICC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Instance",
+  "@type" : [ "Class" ]
+}, {
+  "@id" : "Iron_Docks",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Isle_of_Conquest",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "IoC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Karazhan",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Kara"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Lost_City_of_the_Tol'vir",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "LCoT"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Lower_Blackrock_Spire",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "LBRS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Mage",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Magisters'_Terrace",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "MgT"
+  }, {
+    "@value" : "MrT"
+  }, {
+    "@value" : "Terrace"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Magtheridon's_Lair",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ML"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Mana_Tombs",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "MT"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Maraudon",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Mara"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Markmanship",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "MM"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Hunter"
+  } ]
+}, {
+  "@id" : "Maw_of_Souls",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "MoS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Mistweaver",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "mw"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Monk"
+  } ]
+}, {
+  "@id" : "Mogu'shan_Palace",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "MP"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Mogu'shan_Vaults",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "MV"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Molten_Core",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "MC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Monk",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Nagrand_Arena",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Nagrand"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Arena"
+  } ]
+}, {
+  "@id" : "Naxxramas",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Naxx10"
+  }, {
+    "@value" : "Naxx25"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Neltharion's_Lair",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "NL"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Nighthold",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "NH"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Obsidian_Sanctum",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "OS"
+  }, {
+    "@value" : "Sarth10"
+  }, {
+    "@value" : "Sarth25"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Oculus",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Occ"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Onyxia's_Lair",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Ony10"
+  }, {
+    "@value" : "Ony25"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Opening_the_Dark_Portal",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BM"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Outlaw",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Combat"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Rogue"
+  } ]
+}, {
+  "@id" : "Paladin",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "pala"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Pit_of_Saron",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "PoS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Priest",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Prot",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Protection"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Paladin"
+  } ]
+}, {
+  "@id" : "Protection",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Prot"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Warrior"
+  } ]
+}, {
+  "@id" : "Ragefire_Chashm",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "RFC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Raid",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Instance"
+  } ]
+}, {
+  "@id" : "Razorfen_Downs",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "RFD"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Razorfen_Kraul",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "RFK"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Resto",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Restoration"
+  }, {
+    "@value" : "tree"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Druid"
+  } ]
+}, {
+  "@id" : "Restoration",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Resto"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Shaman"
+  } ]
+}, {
+  "@id" : "Retribution",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "retri"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Paladin"
+  } ]
+}, {
+  "@id" : "Return_to_Karazhan",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "RtK"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Rogue",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Ruby_Sanctum",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Hal10"
+  }, {
+    "@value" : "Hal25"
+  }, {
+    "@value" : "RS"
+  }, {
+    "@value" : "RS10"
+  }, {
+    "@value" : "RS25"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Ruins_of_Ahn'Qiraj",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "AQ10"
+  }, {
+    "@value" : "RAQ"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Ruins_of_Lordaeron",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Ruins"
+  }, {
+    "@value" : "Undercity"
+  }, {
+    "@value" : "Undercity Arena"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Arena"
+  } ]
+}, {
+  "@id" : "Scarlet_Halls",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SH"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Scarlet_Halls_(mists)",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SH"
+  }, {
+    "@value" : "Scarlet Halls"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Scarlet_Monastery",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SM"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Scarlet_Monastery_(mist)",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SM"
+  }, {
+    "@value" : "Scarlet Monastery"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Scholomance",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Scholo"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Scholomance_(mist)",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Scholo"
+  }, {
+    "@value" : "Scholomance"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Serpentshrine_Covern",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SSC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Sethekk_Halls",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "AS"
+  }, {
+    "@value" : "Seth"
+  }, {
+    "@value" : "Seth Halls"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Shado-Pan_Monastery",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SPM"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Shadow",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Priest"
+  } ]
+}, {
+  "@id" : "Shadow_Labyrinth",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SL"
+  }, {
+    "@value" : "Slabs"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Shadowfang_Keep",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SFK"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Shadowfang_Keep_Heroic",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "H-SFK"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Shadowmoon_Burial_Grounds",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SBG"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Shaman",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Shammy"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Shattered_Halls",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SH"
+  }, {
+    "@value" : "Shatt Halls"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Siege_of_Niuzao_Temple",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SNT"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Siege_of_Orgrimmar",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SoO"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Silvershard_Mines",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SM"
+  }, {
+    "@value" : "Silvershard"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Skyreach",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SR"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Slave_Pens",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SP"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Southshore_vs._Tarren_Mill",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Southshore"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Steamvault",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SV"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Stormstout_Brewery",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SB"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Stormwind_Stockade",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Stockade"
+  }, {
+    "@value" : "Stocks"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Strand_of_the_Ancients",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SotA"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Stratholme",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Strat"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Subtlety",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "subtle"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Rogue"
+  } ]
+}, {
+  "@id" : "Sunken_Temple",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "AH"
+  }, {
+    "@value" : "ST"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Survival",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Hunter"
+  } ]
+}, {
+  "@id" : "Tarren_Mill_vs_Southshore",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Tempest_Keep",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "TK"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Temple_of_Ahn'Qiraj",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "AQ40"
+  }, {
+    "@value" : "TAQ"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Temple_of_Kotmogu",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ToK"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Temple_of_the_Jade_Serpent",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "TJS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Terrace_of_Endless_Spring",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "TES"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "The_Arcway",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "arc"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "The_Bastion_of_Twilight",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BoT"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "The_Battle_for_Gilneas",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "BfG"
+  }, {
+    "@value" : "Gilneas"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "The_Battle_for_Mount_Hyjal",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "The_Deadmines",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "DM"
+  }, {
+    "@value" : "VC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "The_Deadmines_Heroic",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "H-DM"
+  }, {
+    "@value" : "H-VC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "The_Emerald_Nightmare",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "EN"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "The_Everbloom",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "EB"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "The_Mechanar",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Mech"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "The_Nexus",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Nex"
+  }, {
+    "@value" : "Nexus"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "The_Ring_of_Valor",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Orgrimmar Arena"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Arena"
+  } ]
+}, {
+  "@id" : "The_Stonecore",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "SC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "The_Sunwell",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "The_Tiger's_Peak",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Tigers Peak"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Arena"
+  } ]
+}, {
+  "@id" : "The_Violet_Hold",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "VH"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "The_Vortex_Pinnacle",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "VP"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Throne_of_Thunder",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ToT"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Throne_of_the_Four_Winds",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "TFW"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Throne_of_the_Tides",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "TotT"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Tol'viron_Arena",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Tolviron"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Arena"
+  } ]
+}, {
+  "@id" : "Trial_of_Valor",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ToV"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Trial_of_the_Champion",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Champ"
+  }, {
+    "@value" : "ToC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Twin_Peaks",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "TP"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Uldaman",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Ulda"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Ulduar",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Uld10"
+  }, {
+    "@value" : "Uld25"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Underbog",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "UB"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Unholy",
+  "@type" : [ "Class" ],
+  "subClassOf" : [ {
+    "@id" : "Death_Knight"
+  } ]
+}, {
+  "@id" : "Upper_Blackrock_Spire",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "UBRS"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Upper_Blackrock_Spire_(WoD)",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "UBRS"
+  }, {
+    "@value" : "Upper Blackrock Spire"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Utgarde_Keep",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "UK"
+  }, {
+    "@value" : "UTK"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Vault_of_Archavon",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Vault"
+  }, {
+    "@value" : "VoA10"
+  }, {
+    "@value" : "VoA25"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Vault_of_the_Wardens",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "VoW"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Vengeance",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "Veng"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Demon_Hunter"
+  } ]
+}, {
+  "@id" : "Violet_Hold",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "VH"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Wailing_Caverns",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "WC"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Warlock",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "lock"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Warrior",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "warr"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "WowClass"
+  } ]
+}, {
+  "@id" : "Warsong_Gulch",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "WSG"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Battleground"
+  } ]
+}, {
+  "@id" : "Well_of_Eternity",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "WoE"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Windwalker",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ww"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Monk"
+  } ]
+}, {
+  "@id" : "WowClass",
+  "@type" : [ "Class" ]
+}, {
+  "@id" : "Zul'Aman",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ZA"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}, {
+  "@id" : "Zul'Farrak",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ZF"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Dungeon"
+  } ]
+}, {
+  "@id" : "Zul'Gurub",
+  "@type" : [ "Class" ],
+  "hasLexicalization" : [ {
+    "@value" : "ZG"
+  } ],
+  "subClassOf" : [ {
+    "@id" : "Raid"
+  } ]
+}]

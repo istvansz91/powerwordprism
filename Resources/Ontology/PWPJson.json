@@ -1,0 +1,1945 @@
+[ {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Affliction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Affli"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warlock"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Ahn'kahet:_The_Old_Kingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "AKO"
+  }, {
+    "@value" : "ANK"
+  }, {
+    "@value" : "OK"
+  }, {
+    "@value" : "OLD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Alterac_Valley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "AV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arathi_Basin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "AB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arcane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arcatraz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Arc"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "2s"
+  }, {
+    "@value" : "2v2"
+  }, {
+    "@value" : "3s"
+  }, {
+    "@value" : "3v3"
+  }, {
+    "@value" : "5s"
+  }, {
+    "@value" : "5v5"
+  }, {
+    "@value" : "rated"
+  }, {
+    "@value" : "skirmish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Instance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Arm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warrior"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Ashamane's_Fall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Ashamanes Fall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Assassination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "envenom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Rogue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Auchenai_Crypts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "AC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Auchindoun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Auch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Azjol-Nerub:_Azjol_Nerub",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "AN"
+  }, {
+    "@value" : "AZN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Balance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "boomkin"
+  }, {
+    "@value" : "moonkin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Baradin_Hold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "bg"
+  }, {
+    "@value" : "ranked"
+  }, {
+    "@value" : "rbg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Instance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Beast_Mastery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hunter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Black_Rook_Hold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BRH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Black_Rook_Hold_Arena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BRH Arena"
+  }, {
+    "@value" : "Black Rook"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Black_Temple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blackfathom_Deeps",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BFD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blackrock_Caverns",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BRC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blackrock_Depths",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BRD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blackrock_Foundry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BF"
+  }, {
+    "@value" : "BRF"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blackwing_Lair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BWL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blade's_Edge_Arena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Blades Edge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Death_Knight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Blood_Furnace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BF"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Bloodmaul_Slag_Mines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BSM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Botanica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Bot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Brewmaster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "bm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Monk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Court_of_Stars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "CoS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Crusaders'_Coliseum:_Trial_of_the_Crusader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "TC"
+  }, {
+    "@value" : "ToC"
+  }, {
+    "@value" : "ToC10"
+  }, {
+    "@value" : "ToC25"
+  }, {
+    "@value" : "ToGC"
+  }, {
+    "@value" : "TotC10"
+  }, {
+    "@value" : "TotC25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Culling_of_Stratholme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "COS"
+  }, {
+    "@value" : "Culling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dalaran_Arena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Sewers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Darkheart_Thicket",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "DHT"
+  }, {
+    "@value" : "DT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Death_Knight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "DK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Deepwind_Gorge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "DG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demon_Hunter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "DH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demonology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Demo"
+  }, {
+    "@value" : "Demon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warlock"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Destruction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Destro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warlock"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dire_Maul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "DM East"
+  }, {
+    "@value" : "DM Warpwood"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Discipline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "disco"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Priest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dragon_Soul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "DS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Drak'Tharon_Keep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "DTK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "dudu"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Instance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Elemental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ele"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shaman"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#End_Time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ET"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Enhancement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "enh"
+  }, {
+    "@value" : "enhance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shaman"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Escape_from_Durnholde_Keep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "DH"
+  }, {
+    "@value" : "DK"
+  }, {
+    "@value" : "Durn"
+  }, {
+    "@value" : "OH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Eye_of_Azshara",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "EoZ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Eye_of_Eternity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "EoE10"
+  }, {
+    "@value" : "EoE25"
+  }, {
+    "@value" : "Maly"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Eye_of_the_Storm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "EotS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Feral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "cat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Fire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Firelands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "FL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Forge_of_Souls",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "FoS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Fr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Frost"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Death_Knight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Frost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Fury",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warrior"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Gate_of_the_Setting_Sun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "GSS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Gnomeregan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Gnomer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Grim_Batol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "GB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Grimrail_Depot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "GD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Gruul's_Lair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "GL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Guardian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "tank"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Gundrak",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "GD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#H",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Holy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Paladin"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Halls_of_Lightning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "HOL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Halls_of_Origination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "HoO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Halls_of_Reflection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "HoR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Halls_of_Stone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "HOS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Halls_of_Valor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "HoV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#HasLexicalization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Havoc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demon_Hunter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Heart_of_Fear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "HoF"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hellfire_Citadel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "HC"
+  }, {
+    "@value" : "HFC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hellfire_Ramparts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Ramps"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Highmaul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "HM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Holy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Priest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hour_of_Twilight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "HoT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hunter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "hunt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Icecrown_Citadel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ICC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Instance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Iron_Docks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Isle_of_Conquest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "IoC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Karazhan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Kara"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Lost_City_of_the_Tol'vir",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "LCoT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Lower_Blackrock_Spire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "LBRS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Magisters'_Terrace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "MgT"
+  }, {
+    "@value" : "MrT"
+  }, {
+    "@value" : "Terrace"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Magtheridon's_Lair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ML"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mana_Tombs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "MT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Maraudon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Mara"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Markmanship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "MM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hunter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Maw_of_Souls",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "MoS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mistweaver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "mw"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Monk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mogu'shan_Palace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "MP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Mogu'shan_Vaults",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "MV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Molten_Core",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "MC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Monk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Nagrand_Arena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Nagrand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Naxxramas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Naxx10"
+  }, {
+    "@value" : "Naxx25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Neltharion's_Lair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "NL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Nighthold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "NH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Obsidian_Sanctum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "OS"
+  }, {
+    "@value" : "Sarth10"
+  }, {
+    "@value" : "Sarth25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Oculus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Occ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Onyxia's_Lair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Ony10"
+  }, {
+    "@value" : "Ony25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Opening_the_Dark_Portal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Outlaw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Combat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Rogue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Paladin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "pala"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Pit_of_Saron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "PoS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Priest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Prot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Protection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Paladin"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Protection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#HasLexicalization" : [ {
+    "@value" : "Prot"
+  } ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Prot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warrior"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Ragefire_Chashm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "RFC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Instance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Razorfen_Downs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "RFD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Razorfen_Kraul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "RFK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Resto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Restoration"
+  }, {
+    "@value" : "tree"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Druid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Restoration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Resto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shaman"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Retribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "retri"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Paladin"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Return_to_Karazhan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "RtK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Rogue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Ruby_Sanctum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Hal10"
+  }, {
+    "@value" : "Hal25"
+  }, {
+    "@value" : "RS"
+  }, {
+    "@value" : "RS10"
+  }, {
+    "@value" : "RS25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Ruins_of_Ahn'Qiraj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "AQ10"
+  }, {
+    "@value" : "RAQ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Ruins_of_Lordaeron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Ruins"
+  }, {
+    "@value" : "Undercity"
+  }, {
+    "@value" : "Undercity Arena"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Scarlet_Halls",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Scarlet_Halls_(mists)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SH"
+  }, {
+    "@value" : "Scarlet Halls"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Scarlet_Monastery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Scarlet_Monastery_(mist)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SM"
+  }, {
+    "@value" : "Scarlet Monastery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Scholomance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Scholo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Scholomance_(mist)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Scholo"
+  }, {
+    "@value" : "Scholomance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Serpentshrine_Covern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SSC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Sethekk_Halls",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "AS"
+  }, {
+    "@value" : "Seth"
+  }, {
+    "@value" : "Seth Halls"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shado-Pan_Monastery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SPM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shadow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Priest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shadow_Labyrinth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SL"
+  }, {
+    "@value" : "Slabs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shadowfang_Keep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SFK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shadowfang_Keep_Heroic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "H-SFK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shadowmoon_Burial_Grounds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SBG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shaman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Shammy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Shattered_Halls",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SH"
+  }, {
+    "@value" : "Shatt Halls"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Siege_of_Niuzao_Temple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SNT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Siege_of_Orgrimmar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SoO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Silvershard_Mines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SM"
+  }, {
+    "@value" : "Silvershard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Skyreach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Slave_Pens",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Southshore_vs._Tarren_Mill",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Southshore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Steamvault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Stormstout_Brewery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Stormwind_Stockade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Stockade"
+  }, {
+    "@value" : "Stocks"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Strand_of_the_Ancients",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SotA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Stratholme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Strat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Subtlety",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "subtle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Rogue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Sunken_Temple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "AH"
+  }, {
+    "@value" : "ST"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Survival",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Hunter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Tarren_Mill_vs_Southshore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Tempest_Keep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "TK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Temple_of_Ahn'Qiraj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "AQ40"
+  }, {
+    "@value" : "TAQ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Temple_of_Kotmogu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ToK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Temple_of_the_Jade_Serpent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "TJS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Terrace_of_Endless_Spring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "TES"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Arcway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "arc"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Bastion_of_Twilight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BoT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Battle_for_Gilneas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "BfG"
+  }, {
+    "@value" : "Gilneas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Battle_for_Mount_Hyjal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Deadmines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "DM"
+  }, {
+    "@value" : "VC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Deadmines_Heroic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "H-DM"
+  }, {
+    "@value" : "H-VC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Emerald_Nightmare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "EN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Everbloom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "EB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Mechanar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Mech"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Nexus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Nex"
+  }, {
+    "@value" : "Nexus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Ring_of_Valor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Orgrimmar Arena"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Stonecore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "SC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Sunwell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Tiger's_Peak",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Tigers Peak"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Violet_Hold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "VH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#The_Vortex_Pinnacle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "VP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Throne_of_Thunder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ToT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Throne_of_the_Four_Winds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "TFW"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Throne_of_the_Tides",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "TotT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Tol'viron_Arena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Tolviron"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Arena"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Trial_of_Valor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ToV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Trial_of_the_Champion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Champ"
+  }, {
+    "@value" : "ToC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Twin_Peaks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "TP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Uldaman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Ulda"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Ulduar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Uld10"
+  }, {
+    "@value" : "Uld25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Underbog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "UB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Unholy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Death_Knight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Upper_Blackrock_Spire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "UBRS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Upper_Blackrock_Spire_(WoD)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "UBRS"
+  }, {
+    "@value" : "Upper Blackrock Spire"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Utgarde_Keep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "UK"
+  }, {
+    "@value" : "UTK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Vault_of_Archavon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Vault"
+  }, {
+    "@value" : "VoA10"
+  }, {
+    "@value" : "VoA25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Vault_of_the_Wardens",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "VoW"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Vengeance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "Veng"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Demon_Hunter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Violet_Hold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "VH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Wailing_Caverns",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "WC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warlock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "lock"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warrior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "warr"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Warsong_Gulch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "WSG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Battleground"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Well_of_Eternity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "WoE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Windwalker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ww"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Monk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#WowClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Warlock"
+  }, {
+    "@value" : "Warrior"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Zul'Aman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ZA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Zul'Farrak",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ZF"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Dungeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Zul'Gurub",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization" : [ {
+    "@value" : "ZG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#Raid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sore/ontologies/2016/10/untitled-ontology-2#hasLexicalization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
