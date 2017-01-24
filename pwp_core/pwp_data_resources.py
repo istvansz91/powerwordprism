@@ -97,12 +97,25 @@ class WowClassesResources:
 
 
 class WowTopic:
-    def __init__(self, topic_link, topic_title):
+    def __init__(self, topic_link, topic_title, number_of_posts):
         self.topic_link = topic_link
         self.topic_title = topic_title
+        self.number_of_posts = number_of_posts
 
     def __str__(self):
-        return 'Topic (' + self.topic_link + ')' + ': ' + self.topic_title
+        return 'Topic (' + self.topic_link + ')' + ': ' + self.topic_title + ' [' + str(self.number_of_posts) + ']'
+
+
+class WowPost:
+    def __init__(self, wow_topic, post_date, post_author, post_body):
+        self.wow_topic = wow_topic
+        self.post_date = post_date
+        self.post_author = post_author
+        self.post_body = post_body
+
+
+        # def __str__(self):
+        #     return 'Topic (' + self.topic_link + ')' + ': ' + self.topic_title
 
 
 WOW_TOPIC_URLS_EU = \
@@ -112,9 +125,7 @@ WOW_TOPIC_URLS_EU = \
 WOW_TOPIC_URLS_DICT_EU = \
     {c: WowClassesResources.WOW_FORUM_ROOT_URL_EU + WowClassesResources.WOW_FORUM_MID_URL + u
      for c, u in WowClassesResources.WOW_CLASS_LIST_EU.items()}
-print(WOW_TOPIC_URLS_DICT_EU)
-
-# print(WOW_TOPIC_URLS_EU[0])
+# print(WOW_TOPIC_URLS_DICT_EU)
 
 
 def get_page_content(url):
@@ -159,8 +170,9 @@ def topic_scrape(forum_url):
         for a in all_link_elements:
             # print a
             title = a.find(class_='ForumTopic-title').get_text().strip()
+            post_number = int(a.find(class_='ForumTopic-replies').get_text().strip())
             # print title
-            all_links.append((a['href'], title))
+            all_links.append(WowTopic(a['href'], title, 1 + post_number))
         i += 1
         time.sleep(3)
     return all_links
@@ -169,7 +181,7 @@ def topic_scrape(forum_url):
 def topic_scrape_update(forum_url, current_links):
     links = [t.topic_link for t in current_links]
     timeout = 3
-    up_to_date_tresh = 30
+    up_to_date_tresh = 50
     i = 1
     existing_link_count = 0
     while True:
@@ -190,11 +202,12 @@ def topic_scrape_update(forum_url, current_links):
             link = a['href']
             # print a
             title = a.find(class_='ForumTopic-title').get_text().strip()
+            post_number = int(a.find(class_='ForumTopic-replies').get_text().strip())
             # print title
             if link in links:
                 existing_link_count += 1
             else:
-                current_links.append(WowTopic(link, title))
+                current_links.insert(0, WowTopic(link, title, 1 + post_number))
         if existing_link_count > up_to_date_tresh:
             print('Found ' + str(up_to_date_tresh) + ' existing links. Stopping further extraction')
             break
@@ -206,6 +219,46 @@ def topic_scrape_update(forum_url, current_links):
 
 
 def extract_topic(topic_title_url_tuple):
+    topic_url_ending = topic_title_url_tuple[0]
+    topic_title = topic_title_url_tuple[1]
+    pprint('[' + topic_title + '] (' + topic_url_ending + ')')
+    all_posts = []
+    i = 1
+    while True:
+        html = get_page_content(
+            WowClassesResources.WOW_FORUM_ROOT_URL_EU + topic_url_ending + WowClassesResources.URL_PAGE_ATTRIBUTE + str(
+                i))
+        if html is None:
+            return []
+        bs_html = BeautifulSoup(html, "html.parser")
+
+        all_topic_post_elements = bs_html.find_all("div", class_="TopicPost-content")
+        # pprint(all_topic_post_elements)
+        link_count = len(all_topic_post_elements)
+        # print str(i) + ' ' + str(link_count)
+
+        if link_count == 0:
+            print('Exiting')
+            break
+        for element in all_topic_post_elements:
+            # print a
+            post_body = element.find(class_='TopicPost-bodyContent').get_text().strip()
+            post_date = element.find("a", class_='TopicPost-timestamp')['data-tooltip-content']
+            author_element = element.find("span", class_='Author-name')
+            if author_element is not None:
+                # post_author = '<UNKNOWN>'
+                if author_element.a is not None:
+                    post_author = author_element.a.get_text().strip()
+                else:
+                    post_author = author_element.get_text().strip()
+                all_posts.append((topic_title, post_date, post_author, post_body))
+        i += 1
+        time.sleep(5)
+    pprint('posts: ' + str(len(all_posts)))
+    return all_posts
+
+
+def extract_topic_update(topic_title_url_tuple):
     topic_url_ending = topic_title_url_tuple[0]
     topic_title = topic_title_url_tuple[1]
     pprint('[' + topic_title + '] (' + topic_url_ending + ')')
@@ -263,7 +316,7 @@ def save_topic_dict_to_file(path, file_name, topic_dict):
     t_count = 0
     c_count = 0
     for wow_class in topic_dict:
-        serializable_dict[wow_class] = [(t.topic_link, t.topic_title) for t in topic_dict[wow_class]]
+        serializable_dict[wow_class] = [(t.topic_link, t.topic_title, t.number_of_posts) for t in topic_dict[wow_class]]
         t_count += len(serializable_dict[wow_class])
         c_count += 1
     save_to_json_file(path, file_name, serializable_dict, 'w')
@@ -277,7 +330,7 @@ def read_topic_dict_from_file(path, file_name):
     t_count = 0
     c_count = 0
     for wow_class in serializable_dict:
-        topic_dict[wow_class] = [WowTopic(l, t) for (l, t) in serializable_dict[wow_class]]
+        topic_dict[wow_class] = [WowTopic(l, t, n) for (l, t, n) in serializable_dict[wow_class]]
         t_count += len(topic_dict[wow_class])
         c_count += 1
     print('Read a total of ' + str(t_count) + ' topic links for ' + str(
