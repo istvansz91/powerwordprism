@@ -106,17 +106,30 @@ class WowTopic:
         return 'Topic (' + self.topic_link + ')' + ': ' + self.topic_title + ' [' + str(self.number_of_posts) + ']'
 
 
-class WowPost:
-    def __init__(self, wow_topic, post_date, post_author, post_body):
-        self.wow_topic = wow_topic
+class WowPostDetail:
+    def __init__(self, post_date, post_author, post_body):
         self.post_date = post_date
         self.post_author = post_author
         self.post_body = post_body
 
 
-        # def __str__(self):
-        #     return 'Topic (' + self.topic_link + ')' + ': ' + self.topic_title
+class WowPost(WowPostDetail):
+    def __init__(self, wow_topic, wow_post_detail):
+        super().__init__(wow_post_detail.post_date, wow_post_detail.post_author, wow_post_detail.post_body)
+        self.wow_topic = wow_topic
 
+    def __str__(self):
+        return 'Post (' + self.post_author + '@' + self.post_date + '@' + self.wow_topic.topic_title + ')' \
+               + ': ' + self.post_body[:100]
+
+
+class WowTopicComplete(WowTopic):
+    def __init__(self, wow_topic, post_list):
+        super().__init__(wow_topic.topic_link, wow_topic.topic_title, wow_topic.number_of_posts)
+        self.post_list = post_list
+
+    def get_wow_topic(self):
+        return WowTopic(self.topic_link, self.topic_title, self.number_of_posts)
 
 WOW_TOPIC_URLS_EU = \
     [(c, WowClassesResources.WOW_FORUM_ROOT_URL_EU + WowClassesResources.WOW_FORUM_MID_URL + u)
@@ -125,6 +138,8 @@ WOW_TOPIC_URLS_EU = \
 WOW_TOPIC_URLS_DICT_EU = \
     {c: WowClassesResources.WOW_FORUM_ROOT_URL_EU + WowClassesResources.WOW_FORUM_MID_URL + u
      for c, u in WowClassesResources.WOW_CLASS_LIST_EU.items()}
+
+
 # print(WOW_TOPIC_URLS_DICT_EU)
 
 
@@ -179,7 +194,7 @@ def topic_scrape(forum_url):
 
 
 def topic_scrape_update(forum_url, current_links):
-    links = [t.topic_link for t in current_links]
+    init_size = len(current_links)
     timeout = 3
     up_to_date_tresh = 50
     i = 1
@@ -204,26 +219,30 @@ def topic_scrape_update(forum_url, current_links):
             title = a.find(class_='ForumTopic-title').get_text().strip()
             post_number = int(a.find(class_='ForumTopic-replies').get_text().strip())
             # print title
-            if link in links:
-                existing_link_count += 1
+            if link in current_links:
+                if current_links[link].number_of_posts == (1 + post_number):
+                    existing_link_count += 1
+                else:
+                    current_links[link].number_of_posts = 1 + post_number
             else:
-                current_links.insert(0, WowTopic(link, title, 1 + post_number))
+                current_links.update({link: WowTopic(link, title, 1 + post_number)})
         if existing_link_count > up_to_date_tresh:
             print('Found ' + str(up_to_date_tresh) + ' existing links. Stopping further extraction')
             break
         i += 1
         time.sleep(timeout)
-    read_diff = len(current_links) - len(links)
+    read_diff = len(current_links) - init_size
     print('Updated given list with additional ' + str(read_diff) + ' topic links')
     return current_links
 
 
-def extract_topic(topic_title_url_tuple):
-    topic_url_ending = topic_title_url_tuple[0]
-    topic_title = topic_title_url_tuple[1]
-    pprint('[' + topic_title + '] (' + topic_url_ending + ')')
+def extract_topic(wow_topic, start_page):
+    topic_url_ending = wow_topic.topic_link
+    pprint('[' + wow_topic.topic_title + '] (' + topic_url_ending + ')')
     all_posts = []
     i = 1
+    if start_page is not None:
+        i = start_page
     while True:
         html = get_page_content(
             WowClassesResources.WOW_FORUM_ROOT_URL_EU + topic_url_ending + WowClassesResources.URL_PAGE_ATTRIBUTE + str(
@@ -251,7 +270,7 @@ def extract_topic(topic_title_url_tuple):
                     post_author = author_element.a.get_text().strip()
                 else:
                     post_author = author_element.get_text().strip()
-                all_posts.append((topic_title, post_date, post_author, post_body))
+                all_posts.append(WowPostDetail(post_date, post_author, post_body))
         i += 1
         time.sleep(5)
     pprint('posts: ' + str(len(all_posts)))
@@ -324,6 +343,20 @@ def save_topic_dict_to_file(path, file_name, topic_dict):
         c_count) + ' classes to file ' + path + file_name + '.json')
 
 
+def save_topic_dict_to_file_as_dict(path, file_name, topic_dict):
+    serializable_dict = {}
+    t_count = 0
+    c_count = 0
+    for wow_class in topic_dict:
+        serializable_dict[wow_class] = [(topic_dict[wow_class][t].topic_link, topic_dict[wow_class][t].topic_title,
+                                         topic_dict[wow_class][t].number_of_posts) for t in topic_dict[wow_class]]
+        t_count += len(serializable_dict[wow_class])
+        c_count += 1
+    save_to_json_file(path, file_name, serializable_dict, 'w')
+    print('Saved a total of ' + str(t_count) + ' topic links for ' + str(
+        c_count) + ' classes to file ' + path + file_name + '.json')
+
+
 def read_topic_dict_from_file(path, file_name):
     serializable_dict = read_from_json_file(path, file_name)
     topic_dict = {}
@@ -336,3 +369,81 @@ def read_topic_dict_from_file(path, file_name):
     print('Read a total of ' + str(t_count) + ' topic links for ' + str(
         c_count) + ' classes from file ' + path + file_name + '.json')
     return topic_dict
+
+
+def read_topic_dict_from_file_as_link_dict(path, file_name):
+    std_format_topic_dict = read_topic_dict_from_file(path, file_name)
+    all_topics_dict = {}
+    t_count = 0
+    print('Started converting topic links to new dictionary...')
+    for wow_class in std_format_topic_dict:
+        all_topics_dict[wow_class] = {}
+        count = 0
+
+        for topic in std_format_topic_dict[wow_class]:
+            count += 1
+            all_topics_dict[wow_class][topic.topic_link] = topic
+        t_count += count
+        print(wow_class + ': ' + str(count))
+    print('Done. Processed ' + str(t_count) + ' topic links')
+    return all_topics_dict
+
+
+def save_post_dict_to_file(path, file_name, post_dict):
+    print('Saving posts to files ' + file_name + '_*.json')
+    t_count = 0
+    c_count = 0
+    serializable_dict = {}
+    for wow_class in post_dict:
+        serializable_dict.clear()
+        serializable_dict[wow_class] = {}
+        serializable_dict[wow_class]['wow_class'] = wow_class
+
+        # serializable_dict[wow_class]['links'] = {p: (post_dict[wow_class][p].topic_link,
+        #                                              post_dict[wow_class][p].topic_title,
+        #                                              post_dict[wow_class][p].number_of_posts) for p in
+        #                                          post_dict[wow_class]}
+        # serializable_dict[wow_class]['posts'] = {p: [(pd.post_date, pd.post_author, pd.post_body) for pd in
+        #                                             post_dict[wow_class][p].post_list] for p in post_dict[wow_class]}
+        serializable_dict[wow_class]['links'] = {}
+        serializable_dict[wow_class]['posts'] = {}
+        temp_count = 0
+        for p in post_dict[wow_class]:
+            serializable_dict[wow_class]['links'].update({p: (post_dict[wow_class][p].topic_link,
+                                                              post_dict[wow_class][p].topic_title,
+                                                              post_dict[wow_class][p].number_of_posts)})
+            serializable_dict[wow_class]['posts'].update({p: [(pd.post_date, pd.post_author, pd.post_body) for pd in
+                                                              post_dict[wow_class][p].post_list]})
+            temp_count += len(serializable_dict[wow_class]['posts'][p])
+
+        t_count += temp_count
+        c_count += 1
+        save_to_json_file(path, file_name + '_' + wow_class, serializable_dict, 'w')
+        print('> ' + wow_class + ': ' + str(temp_count))
+    print('Saved a total of ' + str(t_count) + ' posts for ' + str(
+        c_count) + ' classes to file ' + path + file_name + '_*.json\n')
+
+
+def read_post_dict_from_file(path, file_name):
+    print('Reading posts from files ' + file_name + '_*.json')
+    post_dict = {}
+    t_count = 0
+    c_count = 0
+    for wow_class in WOW_TOPIC_URLS_DICT_EU:
+        serializable_dict = read_from_json_file(path, file_name + '_' + wow_class)
+        temp_count = 0
+        if serializable_dict is not None:
+            post_dict[wow_class] = {}
+            for link in serializable_dict[wow_class]['posts']:
+                topic_obj = WowTopic(serializable_dict[wow_class]['links'][link][0],
+                                     serializable_dict[wow_class]['links'][link][1],
+                                     serializable_dict[wow_class]['links'][link][2])
+                post_list = [WowPostDetail(d, a, b) for (d, a, b) in serializable_dict[wow_class]['posts'][link]]
+                post_dict[wow_class].update({link: WowTopicComplete(topic_obj, post_list)})
+                temp_count += len(post_dict[wow_class][link].post_list)
+            t_count += temp_count
+            c_count += 1
+            print('> ' + wow_class + ': ' + str(temp_count))
+    print('Read a total of ' + str(t_count) + ' posts for ' + str(
+        c_count) + ' classes from file ' + path + file_name + '.json\n')
+    return post_dict
