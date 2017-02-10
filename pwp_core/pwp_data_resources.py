@@ -1,14 +1,14 @@
 from bs4 import BeautifulSoup
 from pprint import pprint
 from urllib import request
-import nltk
 import json
 import time
 
 RESOURCES_PATH_LINKS = 'Resources/Corpora/EU/Links/'
 RESOURCES_PATH_POSTS = 'Resources/Corpora/EU/Posts/'
 RESOURCES_PATH_SCORES = 'Resources/Corpora/EU/Scores/'
-RESOURCES_PATH_ONTOLOGY = 'Resources/Ontology'
+RESOURCES_PATH_ONTOLOGY = 'Resources/Ontology/'
+RESOURCES_PATH_CLASSIFICATION = 'Resources/Corpora/EU/Classification/'
 
 
 class WowClassesResources:
@@ -107,10 +107,16 @@ class WowTopic:
 
 
 class WowPostDetail:
-    def __init__(self, post_date, post_author, post_body):
+    def __init__(self, post_date, post_author, post_body, post_type='other', post_index=-1):
         self.post_date = post_date
         self.post_author = post_author
         self.post_body = post_body
+        self.post_type = post_type
+        self.post_index = post_index
+
+    def __str__(self):
+        return 'Post (' + self.post_author + '@' + self.post_date + '@' + ')' \
+               + ': ' + self.post_body[:100]
 
 
 class WowPost(WowPostDetail):
@@ -130,6 +136,7 @@ class WowTopicComplete(WowTopic):
 
     def get_wow_topic(self):
         return WowTopic(self.topic_link, self.topic_title, self.number_of_posts)
+
 
 WOW_TOPIC_URLS_EU = \
     [(c, WowClassesResources.WOW_FORUM_ROOT_URL_EU + WowClassesResources.WOW_FORUM_MID_URL + u)
@@ -239,7 +246,7 @@ def topic_scrape_update(forum_url, current_links):
 def extract_topic(wow_topic, start_page):
     topic_url_ending = wow_topic.topic_link
     pprint('[' + wow_topic.topic_title + '] (' + topic_url_ending + ')')
-    all_posts = []
+    post_list = []
     i = 1
     if start_page is not None:
         i = start_page
@@ -270,11 +277,11 @@ def extract_topic(wow_topic, start_page):
                     post_author = author_element.a.get_text().strip()
                 else:
                     post_author = author_element.get_text().strip()
-                all_posts.append(WowPostDetail(post_date, post_author, post_body))
+                post_list.append(WowPostDetail(post_date, post_author, post_body))
         i += 1
-        time.sleep(5)
-    pprint('posts: ' + str(len(all_posts)))
-    return all_posts
+        time.sleep(3)
+    pprint('posts: ' + str(len(post_list)))
+    return post_list
 
 
 def extract_topic_update(topic_title_url_tuple):
@@ -412,8 +419,9 @@ def save_post_dict_to_file(path, file_name, post_dict):
             serializable_dict[wow_class]['links'].update({p: (post_dict[wow_class][p].topic_link,
                                                               post_dict[wow_class][p].topic_title,
                                                               post_dict[wow_class][p].number_of_posts)})
-            serializable_dict[wow_class]['posts'].update({p: [(pd.post_date, pd.post_author, pd.post_body) for pd in
-                                                              post_dict[wow_class][p].post_list]})
+            serializable_dict[wow_class]['posts'].update(
+                {p: [(pd.post_date, pd.post_author, pd.post_body, pd.post_type, pd.post_index) for pd in
+                     post_dict[wow_class][p].post_list]})
             temp_count += len(serializable_dict[wow_class]['posts'][p])
 
         t_count += temp_count
@@ -438,7 +446,15 @@ def read_post_dict_from_file(path, file_name):
                 topic_obj = WowTopic(serializable_dict[wow_class]['links'][link][0],
                                      serializable_dict[wow_class]['links'][link][1],
                                      serializable_dict[wow_class]['links'][link][2])
-                post_list = [WowPostDetail(d, a, b) for (d, a, b) in serializable_dict[wow_class]['posts'][link]]
+                post_list = []
+                for p in serializable_dict[wow_class]['posts'][link]:
+                    if len(p) == 3:
+                        post_list.append(WowPostDetail(p[0], p[1], p[2]))
+                    elif len(p) == 3:
+                        post_list.append(WowPostDetail(p[0], p[1], p[2], p[3], p[4]))
+
+                # post_list = [WowPostDetail(d, a, b, t, i) for (d, a, b, t, i) in
+                #              serializable_dict[wow_class]['posts'][link]]
                 post_dict[wow_class].update({link: WowTopicComplete(topic_obj, post_list)})
                 temp_count += len(post_dict[wow_class][link].post_list)
             t_count += temp_count
