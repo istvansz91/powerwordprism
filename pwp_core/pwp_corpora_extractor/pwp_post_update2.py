@@ -11,15 +11,17 @@ update_missing_class = 'no'
 
 for wow_class in all_links_dict:
     mismatch_count = 0
+
+    if update_missing_class == wow_class:
+        print('> ' + wow_class + '\n==========================')
+        print('Missing completely: ')
+        print('Updating missing classes is enabled for ' + update_missing_class +
+              '. Performing corpora extraction...')
+        all_posts_dict[wow_class] = {}
     if wow_class not in all_posts_dict:
         if update_missing_class == 'no':
             # print('Updating missing classes is not enabled')
             pass
-        elif update_missing_class == wow_class:
-            print('> ' + wow_class + '\n==========================')
-            print('Missing completely: ')
-            print('Updating missing classes is enabled for ' + update_missing_class +
-                  '. Performing corpora extraction...')
     else:
         print('> ' + wow_class + '\n==========================')
         for link in all_links_dict[wow_class]:
