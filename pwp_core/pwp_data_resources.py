@@ -107,16 +107,17 @@ class WowTopic:
 
 
 class WowPostDetail:
-    def __init__(self, post_date, post_author, post_body, post_type='other', post_index=-1):
+    def __init__(self, post_date, post_author, post_body, post_type='other', post_index=-1, post_score=0.0):
         self.post_date = post_date
         self.post_author = post_author
         self.post_body = post_body
         self.post_type = post_type
         self.post_index = post_index
+        self.post_score = post_score
 
     def __str__(self):
         return 'Post (' + self.post_author + '@' + self.post_date + '@' + ')' \
-               + ': ' + self.post_body[:100]
+               + ': ' + str(self.post_body[:100])
 
 
 class WowPost(WowPostDetail):
@@ -243,7 +244,7 @@ def topic_scrape_update(forum_url, current_links):
     return current_links
 
 
-def extract_topic(wow_topic, start_page = None):
+def extract_topic(wow_topic, start_page=None):
     topic_url_ending = wow_topic.topic_link
     pprint('[' + wow_topic.topic_title + '] (' + topic_url_ending + ')')
     post_list = []
@@ -324,7 +325,7 @@ def extract_topic_update(topic_title_url_tuple):
     return all_posts
 
 
-def save_to_json_file(path, file_name, content, mode):
+def save_to_json_file(path, file_name, content, mode='w'):
     with open(path + file_name + '.json', mode) as out_file:
         json.dump(content, out_file)
 
@@ -420,7 +421,7 @@ def save_post_dict_to_file(path, file_name, post_dict):
                                                               post_dict[wow_class][p].topic_title,
                                                               post_dict[wow_class][p].number_of_posts)})
             serializable_dict[wow_class]['posts'].update(
-                {p: [(pd.post_date, pd.post_author, pd.post_body, pd.post_type, pd.post_index) for pd in
+                {p: [(pd.post_date, pd.post_author, pd.post_body, pd.post_type, pd.post_index, pd.post_score) for pd in
                      post_dict[wow_class][p].post_list]})
             temp_count += len(serializable_dict[wow_class]['posts'][p])
 
@@ -452,6 +453,8 @@ def read_post_dict_from_file(path, file_name):
                         post_list.append(WowPostDetail(p[0], p[1], p[2]))
                     elif len(p) == 5:
                         post_list.append(WowPostDetail(p[0], p[1], p[2], p[3], p[4]))
+                    elif len(p) == 6:
+                        post_list.append(WowPostDetail(p[0], p[1], p[2], p[3], p[4], p[5]))
 
                 # post_list = [WowPostDetail(d, a, b, t, i) for (d, a, b, t, i) in
                 #              serializable_dict[wow_class]['posts'][link]]

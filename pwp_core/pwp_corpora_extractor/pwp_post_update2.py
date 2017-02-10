@@ -52,7 +52,7 @@ for wow_class in all_links_dict:
                         all_links_dict[wow_class][link]))
                     mismatch_count += 1
 
-            # break\
+            # break
             if mismatch_count % 20 == 0:
                 save_post_dict_to_file(RESOURCES_PATH_POSTS, 'corpora_posts_raw', all_posts_dict)
     mismatch_count_t += mismatch_count
