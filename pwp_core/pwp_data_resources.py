@@ -243,7 +243,7 @@ def topic_scrape_update(forum_url, current_links):
     return current_links
 
 
-def extract_topic(wow_topic, start_page):
+def extract_topic(wow_topic, start_page = None):
     topic_url_ending = wow_topic.topic_link
     pprint('[' + wow_topic.topic_title + '] (' + topic_url_ending + ')')
     post_list = []
@@ -450,7 +450,7 @@ def read_post_dict_from_file(path, file_name):
                 for p in serializable_dict[wow_class]['posts'][link]:
                     if len(p) == 3:
                         post_list.append(WowPostDetail(p[0], p[1], p[2]))
-                    elif len(p) == 3:
+                    elif len(p) == 5:
                         post_list.append(WowPostDetail(p[0], p[1], p[2], p[3], p[4]))
 
                 # post_list = [WowPostDetail(d, a, b, t, i) for (d, a, b, t, i) in

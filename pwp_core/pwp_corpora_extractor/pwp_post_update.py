@@ -1,7 +1,7 @@
 from pwp_core.pwp_data_resources import *
 
 all_links_dict = read_topic_dict_from_file_as_link_dict(RESOURCES_PATH_LINKS, 'all_topic_links')
-all_posts_dict = read_post_dict_from_file(RESOURCES_PATH_POSTS, 'corpora_posts_raw_u')
+all_posts_dict = read_post_dict_from_file(RESOURCES_PATH_POSTS, 'corpora_posts_raw')
 
 tl = []
 i = 0
@@ -36,4 +36,4 @@ for wow_class in all_posts_dict:
 print('DONE Updating out-of-date Topics. A total of ' + str(mismatch_count_t) + ' topics were updated')
 
 # Save changes
-save_post_dict_to_file(RESOURCES_PATH_POSTS, 'corpora_posts_raw_u', all_posts_dict)
+save_post_dict_to_file(RESOURCES_PATH_POSTS, 'corpora_posts_raw', all_posts_dict)

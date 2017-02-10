@@ -2,7 +2,7 @@ from pwp_core.pwp_data_resources import *
 
 all_links_dict = read_topic_dict_from_file_as_link_dict(RESOURCES_PATH_LINKS, 'all_topic_links')
 
-all_posts_dict = read_post_dict_from_file(RESOURCES_PATH_POSTS, 'corpora_posts_raw_u')
+all_posts_dict = read_post_dict_from_file(RESOURCES_PATH_POSTS, 'corpora_posts_raw')
 
 # Check the posts dictionary, that the number of posts for a topic matches the number read from the topic link
 print('Checking for inconsistencies:')
@@ -29,3 +29,12 @@ for wow_class in all_posts_dict:
 print('DONE Checking for inconsistencies:\nFound a total of ' + str(
     out_of_date_t) + ' topics out of date.\nFound a total of ' + str(mismatch_count_t) + ' inconsistent topics.\n')
 
+for wow_class in all_links_dict:
+    if wow_class not in all_posts_dict:
+        print('Missing completely: ' + wow_class)
+    else:
+        cnt = 0
+        for link in all_links_dict[wow_class]:
+            if link not in all_posts_dict[wow_class]:
+                cnt += 1
+        print('Missing ' + str(cnt) + ' topics from ' + wow_class)
