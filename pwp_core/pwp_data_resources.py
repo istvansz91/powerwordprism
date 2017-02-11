@@ -204,7 +204,7 @@ def topic_scrape(forum_url):
 def topic_scrape_update(forum_url, current_links):
     init_size = len(current_links)
     timeout = 3
-    up_to_date_tresh = 50
+    up_to_date_tresh = 200
     i = 1
     existing_link_count = 0
     while True:
