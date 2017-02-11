@@ -42,7 +42,8 @@ for wow_class in posts_tagged_dict:
                         p.post_score = sc
 
                 progress_post += 1
-            auth_score_array = numpy.array([post.post_score for post in posts_tagged_dict[wow_class][pt][auth]])
+            auth_score_array = numpy.array(
+                [post.post_score for post in posts_tagged_dict[wow_class][pt][auth] if post.post_score != 0.0])
             auth_sc = numpy.mean(auth_score_array)
             auths_scored_dict[wow_class][pt][auth] = 0.0
             if not math.isnan(auth_sc):
@@ -51,7 +52,8 @@ for wow_class in posts_tagged_dict:
             if progress_auth % 250 == 0:
                 print('\t\t\tProgress: ' + str(progress_post) + '/' + str(total_post_count))
         post_type_score_array = numpy.array(
-            [auths_scored_dict[wow_class][pt][a] for a in auths_scored_dict[wow_class][pt]])
+            [auths_scored_dict[wow_class][pt][a] for a in auths_scored_dict[wow_class][pt] if
+             auths_scored_dict[wow_class][pt][a] != 0.0])
         post_mean_sc = numpy.mean(post_type_score_array)
         post_types_scored_dict[wow_class][pt] = post_mean_sc
 
