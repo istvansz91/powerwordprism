@@ -8,6 +8,7 @@ print('Updating out-of-date Topics:')
 mismatch_count_t = 0
 
 update_missing_class = 'no'
+# all_posts_dict.pop(WowClassesResources.WOW_C_DEMON_HUNTER)
 # all_posts_dict.pop(WowClassesResources.WOW_C_DEATH_KNIGHT)
 # all_posts_dict.pop(WowClassesResources.WOW_C_WARRIOR)
 for wow_class in all_links_dict:
@@ -78,7 +79,7 @@ for wow_class in all_links_dict:
                 mismatch_temp_cnt = 1
                 print(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + ': Existing Topics: ' + str(
                     len(all_posts_dict[wow_class])) + '/' + str(
-                    len(all_links_dict[wow_class])))
+                    len(all_links_dict[wow_class])) + '\n')
 
     mismatch_count_t += mismatch_count
     if mismatch_temp_cnt != 1:
