@@ -55,7 +55,7 @@ for wow_class in posts_tagged_dict:
             [auths_scored_dict[wow_class][pt][a] for a in auths_scored_dict[wow_class][pt] if
              auths_scored_dict[wow_class][pt][a] != 0.0])
         post_mean_sc = numpy.mean(post_type_score_array)
-        post_types_scored_dict[wow_class][pt] = post_mean_sc
+        post_types_scored_dict[wow_class][pt] = (post_mean_sc, post_type_score_array.size)
 
 print('===================================================================')
 print('=== DONE Applying Sentiment Analysis ===\n')

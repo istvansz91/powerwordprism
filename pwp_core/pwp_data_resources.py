@@ -3,6 +3,7 @@ from pprint import pprint
 from urllib import request
 import json
 import time
+import datetime
 
 RESOURCES_PATH_LINKS = 'Resources/Corpora/EU/Links/'
 RESOURCES_PATH_POSTS = 'Resources/Corpora/EU/Posts/'
@@ -362,7 +363,7 @@ def save_topic_dict_to_file_as_dict(path, file_name, topic_dict):
         c_count += 1
     save_to_json_file(path, file_name, serializable_dict, 'w')
     print('Saved a total of ' + str(t_count) + ' topic links for ' + str(
-        c_count) + ' classes to file ' + path + file_name + '.json')
+        c_count) + ' classes to file ' + path + file_name + '.json\n')
 
 
 def read_topic_dict_from_file(path, file_name):
