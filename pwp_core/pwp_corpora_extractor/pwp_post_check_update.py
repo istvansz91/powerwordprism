@@ -3,6 +3,7 @@ from pwp_core.pwp_data_resources import *
 all_links_dict = read_topic_dict_from_file_as_link_dict(RESOURCES_PATH_LINKS, 'all_topic_links')
 
 all_posts_dict = read_post_dict_from_file(RESOURCES_PATH_POSTS, 'corpora_posts_raw')
+# save_post_dict_to_file(RESOURCES_PATH_POSTS, 'corpora_posts_raw_u', all_posts_dict)
 
 # Check the posts dictionary, that the number of posts for a topic matches the number read from the topic link
 print('Checking for inconsistencies:')

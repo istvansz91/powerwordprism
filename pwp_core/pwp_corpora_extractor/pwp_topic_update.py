@@ -16,5 +16,5 @@ for wow_class in corpora_dict:
     print(wow_class + ': ')
     topic_scrape_update(WOW_TOPIC_URLS_DICT_EU[wow_class], corpora_dict[wow_class])
 
-save_topic_dict_to_file_as_dict(RESOURCES_PATH_LINKS, 'all_topic_links_u', corpora_dict)
-# save_topic_dict_to_file_as_dict(RESOURCES_PATH_LINKS, 'all_topic_links', corpora_dict)
+# save_topic_dict_to_file_as_dict(RESOURCES_PATH_LINKS, 'all_topic_links_u', corpora_dict)
+save_topic_dict_to_file_as_dict(RESOURCES_PATH_LINKS, 'all_topic_links', corpora_dict)
