@@ -7,11 +7,17 @@ all_posts_dict = read_post_dict_from_file(RESOURCES_PATH_POSTS, 'corpora_posts_r
 print('Updating out-of-date Topics:')
 mismatch_count_t = 0
 
-update_missing_class = WowClassesResources.WOW_C_MAGE
+update_missing_class = 'no'
+# all_posts_dict.pop(WowClassesResources.WOW_C_DEATH_KNIGHT)
+# all_posts_dict.pop(WowClassesResources.WOW_C_DEMON_HUNTER)
+# all_posts_dict.pop(WowClassesResources.WOW_C_DRUID)
+# all_posts_dict.pop(WowClassesResources.WOW_C_HUNTER)
+# all_posts_dict.pop(WowClassesResources.WOW_C_MAGE)
+# all_posts_dict.pop(WowClassesResources.WOW_C_MONK)
+# all_posts_dict.pop(WowClassesResources.WOW_C_PALADIN)
+# all_posts_dict.pop(WowClassesResources.WOW_C_PRIEST)
 # all_posts_dict.pop(WowClassesResources.WOW_C_ROGUE)
 # all_posts_dict.pop(WowClassesResources.WOW_C_SHAMAN)
-# all_posts_dict.pop(WowClassesResources.WOW_C_DEMON_HUNTER)
-# all_posts_dict.pop(WowClassesResources.WOW_C_DEATH_KNIGHT)
 # all_posts_dict.pop(WowClassesResources.WOW_C_WARRIOR)
 # all_posts_dict.pop(WowClassesResources.WOW_C_WARLOCK)
 for wow_class in all_links_dict:
