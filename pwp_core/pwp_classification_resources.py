@@ -100,22 +100,23 @@ def read_and_build_onto(file_name):
 def get_min_index_for_word(text, word):
     critMatch = re.search(r'\b' + word.lower() + r'\b', text.lower())
     if critMatch:
-        return critMatch.start()
+        return critMatch.start(), word
     else:
-        return sys.maxsize
+        return sys.maxsize, 'NONE'
 
 
 def get_post_type_recursive(onto, post_body):
     # get index for current onto element
-    current_index = sys.maxsize
+    current_index = (sys.maxsize, 'NONE')
     current_type = 'other'
+
     result = (current_index, current_type)
 
     if onto.name != 'Instance':
         # print('It is in ' + onto.name)
         crit_list = [onto.name] + onto.lex_list
         # print('Crit list: ' + str(crit_list))
-        current_index = min([get_min_index_for_word(post_body, crit) for crit in crit_list])
+        current_index = min([get_min_index_for_word(post_body, crit) for crit in crit_list], key=lambda t: t[0])
         current_type = onto.get_sub_parent().name
         result = (current_index, current_type)
 
@@ -124,7 +125,7 @@ def get_post_type_recursive(onto, post_body):
 
     for inst in onto.children_list:
         temp_result = get_post_type_recursive(inst, post_body)
-        if temp_result[0] < result[0]:
+        if temp_result[0][0] < result[0][0]:
             result = temp_result
 
     return result

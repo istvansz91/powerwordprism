@@ -27,7 +27,7 @@ for wow_class in posts_dict:
         for post in posts_dict[wow_class][topic].post_list:
             index, post_type = get_post_type_recursive(instance_onto, post.post_body)
             post.post_type = post_type
-            if index != sys.maxsize:
+            if index[0] != sys.maxsize:
                 post.post_index = index
                 # print(post.post_type + ': ' + str(post.post_index))
                 # break
