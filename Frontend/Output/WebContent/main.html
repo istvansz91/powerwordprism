@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Class Sentiment Analysis</title>
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+
+</head>
+<body>
+
+
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="Author.json"></script>
+
+
+
+
+ <div id="holder">																																																							
+ <div id="frame">
+
+<!-- MENU -->
+
+<div id="big_menu">
+  <table>
+    <tr>
+      <td><a href="index.html"> Home </a> </td>
+      <td><a href="main.html"> Class Sentiment Analysis</a> </td>
+      <td><a href="#"> Author Sentiment Analysis </a> </td>
+    </tr>
+  </table>
+</div>
+
+<!-- MENU END -->
+
+<!-- HEADER -->
+
+<div id="top_header"> <div id="logo"><a href="index.html"> PowerWordPrism </a><br /> <a href="#" id="slogan">A World of Warcraft Sentiment Analysis</a></div> </div>
+<div id="bottom_header">
+  <div class="block_header2">
+    <h1> Authors </h1>
+    <form method="post" action="#">
+      <table>
+        <tr>
+          <td style="text-align:center"><b><br />Istvan Svzbo</b></td>          
+        </tr>
+        <tr>
+          <td style="text-align:center"><b><br />Soroosh Mashal</b></td>          
+        </tr>
+        <tr>
+          <td style="text-align:center"><b><br />André Freitas</b></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <div id="bottom_header_middle"> </div>
+  <div class="block_header">
+    <h1> Credits </h1>
+    <p> This analysis has started<br />
+     as a text mining poject in<br />
+      University of Passau in  <br />
+      winter semester 2016/17 <br />
+        </p>
+  </div>
+</div>
+
+<!-- HEADER END  -->
+
+<div class="clear"> </div>
+
+<!-- CONTENT BLOCK   -->
+
+<div id="border">
+  <div id="content">
+  
+<!-- MENU LEFT  -->
+    <div id="left_menu">
+      <div class="little_menu">
+        <div>
+          <h1> Game Information </h1>
+          <ul>
+            <li> <a href="https://worldofwarcraft.com/en-us/"> Wow Official Website </a> </li>
+            <li> <a href="https://worldofwarcraft.com/en-us/game/classes"> Class Description </a> </li>
+            <li> <a href="https://eu.battle.net/forums/en/wow/"> Wow Forum </a> </li>            
+          </ul>
+        </div>
+        <div>
+          <h1> Author Contacts </h1>
+          <ul>
+            <li> <a href="http://www.fim.uni-passau.de/en/digital-libraries/team/details/?module=Persondetails&target=90518&source=90518&config_id=7159c8d0d2d665b0640649fe924a184b&range_id=adeb76e7b9b9ddc19a5fd6e1c28417cf&username=donasc01&hash=407081029"> André Freitas </a> </li>
+            <li> <a href="#"> Istvan Svezbo </a> </li>
+            <li> <a href="#"> Soroosh Mashal </a> </li>            
+          </ul>
+        </div>
+      </div>
+    </div>
+<!-- MENU LEFT END  -->
+
+<!-- CONTENT  -->
+    <div id="middle">
+      <div> <h2>Class Sentiment Analysis</h2> <br />
+        <br />
+        <h3> Sentiment Analysis Procedure </h3>
+        	<p>
+        	The project is written with Python programming languages and it uses Vader nltk as its main sentiment analysis tool.<br />
+        	<br />
+        	The first stage was to gather corpora from Blizzard forums using "beautiful soup" python library.
+        	Afterwards, the data was structured as JSON files and it was annotated using vader. <br />
+        	To increase the accuracy and omit negative idea effect, we grouped up posts by authors and got an average for every author. <br /> 
+        	<br />
+        	In addition to that, more adjustment was done on the data to increase sentiment analysis result accuracy. For example, sentimets between -0.5 to 0.5 -with -1 being lowest and 1 being highest- has been removed in the last scoring, since they were not presenting any significant sentiment in this domain.<br /> 
+        	<br />
+        	In order to dig deeper into class sentiment analysis to have a more clear idea of each aspect of gameplay, a classification was applied on the posts to categorize them based on PvP and PvE aspects. Later we improved ontology and we were able to do this classification based on instances types in each type of gameplay. This can ultimatly provide game developers with exact point to focus on class designs. <br />
+        	<br />
+        	The accuracy was manually monitored in small stages during classification process, however, after finalizing last stage of annotation, more than a thousand posts were randomly selected from different aspects and were manually annotated. The results were compared with Vader Sentiment Analysis annotations to provide the last classification accuracy.
+        	</p>
+        	<br />
+      </div>
+      <div> <br />
+        <h3> Sentiment Analysis Results </h3>
+        
+
+<table>
+	<tr>
+		<td><div id="DemonHunter"></div></td>
+		<td><img src='Images/Classes/DemonHunter.jpg' align="top_header" height="200px" width="200px">
+		<br/><p>Demon hunters, disciples of Illidan Stormrage, uphold a dark legacy, one that frightens their allies and enemies alike. The Illidari embrace fel and chaotic magics—energies that have long threatened the world of Azeroth—believing them necessary to challenge the Burning Legion. 
+		</p></td>
+	</tr>
+	<tr>
+		<td><div id="DeathKnight"></div></td>
+		<td><img src='Images/Classes/DeathKnight.jpg' align="top_header" height="200px" width="200px">
+		<br/>When the Lich King’s control of his death knights was broken, his former champions sought revenge for the horrors committed under his command. After their vengeance was won, the death knights found themselves without a cause and without a home. 
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Druid"></div></td>
+		<td><img src='Images/Classes/Druid.jpg' align="top_header" height="200px" width="200px">
+		<br/>Druids harness the vast powers of nature to preserve balance and protect life. Druids can unleash nature’s raw energy against their enemies, raining celestial fury on them from a great distance, binding them with enchanted vines, or ensnaring them in unrelenting cyclones. 
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Mage"></div></td>
+		<td><img src='Images/Classes/Mage.jpg' align="top_header" height="200px" width="200px">
+		<br/>Students gifted with a keen intellect and unwavering discipline may walk the path of the mage. To avoid interference with their spellcasting, magi wear only cloth armor, but arcane shields and enchantments give them additional protection. 
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Priest"></div></td>
+		<td><img src='Images/Classes/Priest.jpg' align="top_header" height="200px" width="200px">
+		<br/>Priests are devoted to the spiritual, and express their unwavering faith by serving the people. For millennia they have left behind the confines of their temples and the comfort of their shrines so they can support their allies in war-torn lands. 
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Paladin"></div></td>
+		<td><img src='Images/Classes/Paladin.jpg' align="top_header" height="200px" width="200px">
+		<br/>To protect the weak, to bring justice to the unjust, and to vanquish evil from the darkest corners of the world; these holy warriors are equipped with plate armor so they can confront the toughest of foes, and the blessing of the Light to heal wounds and, even restore life to the dead. 
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Warrior"></div></td>
+		<td><img src='Images/Classes/Warrior.jpg' align="top_header" height="200px" width="200px">
+		<br/>Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow.  
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Warlock"></div></td>
+		<td><img src='Images/Classes/Warlock.jpg' align="top_header" height="200px" width="200px">
+		<br/>In the face of demonic power, most heroes see death. Warlocks see only opportunity. Dominance is their aim, and they have found a path to it in the dark arts. These voracious spellcasters summon demonic minions to fight beside them.  
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Rogue"></div></td>
+		<td><img src='Images/Classes/Rogue.jpg' align="top_header" height="200px" width="200px">
+		<br/>Free from the constraints of a conscience, these mercenaries rely on brutal and efficient tactics. Lethal assassins and masters of stealth, they will approach their marks from behind, piercing a vital organ and vanishing into the shadows before the victim hits the ground. 
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Monk"></div></td>
+		<td><img src='Images/Classes/Monk.jpg' align="top_header" height="200px" width="200px">
+		<br/>Restricted from using weapons by their slave masters, these pandaren instead focused on harnessing their chi and learning weaponless combat. When the opportunity for revolution struck, they were well-trained to throw off the yoke of oppression. 
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Hunter"></div></td>
+		<td><img src='Images/Classes/Hunter.jpg' align="top_header" height="200px" width="200px">
+		<br/>From an early age, the call of the wild draws some adventurers from the comfort of their homes into the unforgiving primal world outside. Those who endure become hunters. They are able to slip like ghosts through the trees and lay traps in the paths of their enemies. 
+		</td>
+	</tr>
+	<tr>
+		<td><div id="Shaman"></div></td>
+		<td><img src='Images/Classes/Shaman.jpg' align="top_header" height="200px" width="200px">
+		<br/>Shaman are spiritual guides and practitioners, not of the divine, but of the very elements. Acting as moderators among earth, fire, water, and air, shaman summon totems that focus the elements to support the shaman’s allies or punish those who threaten them. 
+		</td>
+	</tr>
+</table>
+        </div>
+      </div>
+      
+<!-- CONTENT END  -->
+
+<!-- MENU RIGHT -->
+
+      <div id="right_menu">
+        <div class="little_menu">
+          <div>
+            <h1> Text Mining Links </h1>            
+          <ul>
+            <li> <a href="https://en.wikipedia.org/wiki/Sentiment_analysis"> Sentiment Analysis </a> </li>
+            <li> <a href="https://en.wikipedia.org/wiki/Text_mining"> Text Mining </a> </li>
+            <li> <a href="http://www.nltk.org/_modules/nltk/sentiment/vader.html"> Vader </a> </li>            
+          </ul>
+          </div>          
+        </div>
+      </div>
+    </div>
+    
+<!-- MENU RIGHT END -->
+
+    <div class=" clear"> </div>
+  </div>
+  
+<!--  BLOCK CONTENT END  -->
+  
+<!--  FOOTER  -->
+  <div id="footer"> <span class="copyright">World of Warcraft&reg; et Blizzard Entertainment&reg; are trademarks or registered trademarks of Blizzard Entertainment in the U.S. and / or other countries. <br />
+   These terms and all materials, logos and related images are copyright &copy; Blizzard Entertainment. This site is not associated in any way or is endorsed by Blizzard Entertainment&reg;.</span> 
+   </div>    
+<!--  FOOTER END  -->
+
+<!--  FRAME END  -->
+</div>
+
+<!--  HOLDER END  -->
+</div>
+
+
+<script type="text/javascript">
+	readJson();
+	function readJson() {
+		try {
+			//var jsonText = readTextFile('Author.json');
+			//alert(jsonText);
+			var scoreObject = JSON.parse(data);
+			for ( var property in scoreObject) {
+				if (scoreObject.hasOwnProperty(property)) {
+					var title = property;
+					var classObj = scoreObject[property];
+					var seriesVar = [];
+					var PVEnumberOfPosts = 0;
+					var PVPnumberOfPosts = 0;
+					var OthernumberOfPosts = 0;
+					for ( var subproperty in classObj) {
+						if (classObj.hasOwnProperty(subproperty)) {
+							var chartname = subproperty;
+							var valueName = classObj[chartname][0];
+							var serie;
+
+							if (chartname == 'Raid' || chartname == 'Dungeon') {
+								PVEnumberOfPosts += parseInt(classObj[chartname][1]);
+								serie = {
+									'name' : chartname,
+									'data' : [ valueName, 0, 0 ]
+								};
+							} else if (chartname == 'other') {
+								OthernumberOfPosts += parseInt(classObj[chartname][1]);
+								serie = {
+									'name' : chartname,
+									'data' : [ 0, 0, valueName ]
+								};
+							} else {
+								PVPnumberOfPosts += parseInt(classObj[chartname][1]);
+								serie = {
+									'name' : chartname,
+									'data' : [ 0, valueName, 0 ]
+								};
+							}
+							seriesVar.push(serie);
+						}
+					}
+					//alert(JSON.stringify(seriesVar));
+					var categories = [ 'PVE by ' + PVEnumberOfPosts + ' posts',
+							'PVP by ' + PVPnumberOfPosts + ' posts',
+							'Other by ' + OthernumberOfPosts + ' posts' ];
+					createHighchart(title.replace(/ /g, ''), title, categories,
+							seriesVar);
+				}
+			}
+
+		} catch (exception) {
+			alert(exception);
+		}
+	}
+
+	function createHighchart(elementId, title, categoriesVar, seriesVar) {
+		Highcharts.chart(elementId, {
+			chart : {
+				type : 'column'
+			},
+			title : {
+				text : title + ' sentiment analysis'
+			},
+			xAxis : {
+				categories : categoriesVar
+			},
+			credits : {
+				enabled : false
+			},
+			series : seriesVar
+		});
+	}
+</script>
+
+</body>
+</html>

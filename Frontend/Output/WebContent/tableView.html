@@ -1,0 +1,53 @@
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script
+	src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script src="Vader_2017-04-09_15-07-33_complete_scores_by_author.json"></script>
+<link rel="stylesheet" href='jquery.dataTables.min.css'></link>
+
+
+<table width="100%" class="display" id="example"></table>
+
+<script type="text/javascript">
+var dataSet = [];
+	function readData() {
+		try {
+			var authorObject = JSON.parse(data);
+			for ( var wowclass in authorObject) {
+				if (authorObject.hasOwnProperty(wowclass)) {
+					var instances = authorObject[wowclass];
+					for ( var instance in instances) {
+						if (instances.hasOwnProperty(instance)) {
+							var authors = instances[instance];
+							for ( var author in authors) {
+								if (authors.hasOwnProperty(author) && authors[author] !== 0) {
+									dataSet.push(author, wowclass, instance, authors[author], 'color');
+								}
+							}
+						}
+					}
+				}
+			}
+		} catch (exception) {
+			alert(exception);
+		}
+
+	}
+
+	$(document).ready(function() {
+		readData();
+		$('#example').DataTable({
+			data : dataSet,
+			columns : [ {
+				title : "Author"
+			}, {
+				title : "Class"
+			}, {
+				title : "Instance"
+			}, {
+				title : "Sentiment"
+			}, {
+				title : "Color"
+			} ]
+		});
+	});
+</script>
