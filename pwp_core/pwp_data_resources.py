@@ -10,6 +10,7 @@ RESOURCES_PATH_POSTS = 'Resources/Corpora/EU/Posts/'
 RESOURCES_PATH_SCORES = 'Resources/Corpora/EU/Scores/'
 RESOURCES_PATH_ONTOLOGY = 'Resources/Ontology/'
 RESOURCES_PATH_CLASSIFICATION = 'Resources/Corpora/EU/Classification/'
+RESOURCES_PATH_ANNOTATIONS = 'Resources/Manual annotation/'
 
 
 class WowClassesResources:

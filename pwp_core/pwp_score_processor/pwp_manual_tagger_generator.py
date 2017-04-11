@@ -17,9 +17,7 @@ for wow_class in post_scores_dict:
             if [p for p in post_scores_dict[wow_class][pt][auth] if p.post_score != 0.0]:
                 cnt += 1
                 p = post_scores_dict[wow_class][pt][auth][0]
-                score_tag_dict[wow_class][pt].append((p.post_body, pt, p.post_score,
-                                                      (' '.join(p.post_body))[p.post_index:].split(' ')[0],
-                                                      1, 1))
+                score_tag_dict[wow_class][pt].append((p.post_body, pt, p.post_score, p.post_index, 1, 1))
                 if cnt % 100 == 0:
                     break
         if cnt % 100 != 0:
@@ -31,11 +29,4 @@ for wow_class in post_scores_dict:
         else:
             print('Counter: ' + str(cnt))
 
-
-# save_to_json_file(RESOURCES_PATH_CLASSIFICATION, 'samples_to_check', score_tag_dict)
-
-score_tag_dict = read_from_json_file(RESOURCES_PATH_CLASSIFICATION, 'samples_to_check')
-for wow_class in score_tag_dict:
-    for pt in score_tag_dict[wow_class]:
-        pprint(score_tag_dict[wow_class][pt])
-
+save_to_json_file(RESOURCES_PATH_CLASSIFICATION, 'samples_to_check2', score_tag_dict)

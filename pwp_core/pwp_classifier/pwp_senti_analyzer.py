@@ -11,9 +11,11 @@ print('=== Applying sentiment analysis on all posts using ' + SENTI_ALG + ' ==='
 print('===================================================================')
 sid = SentimentIntensityAnalyzer()
 SCORE_TRESHOLD = 0.5
-
+incr = 0
 for wow_class in posts_tagged_dict:
-    print('\nProcessing ' + wow_class + '\n=======================')
+    incr += 1
+    print('\nProcessing ' + wow_class + ' (' + str(incr) + '/' + str(
+        len(posts_tagged_dict)) + ')\n=======================')
     auths_scored_dict[wow_class] = {}
     post_types_scored_dict[wow_class] = {}
     for pt in posts_tagged_dict[wow_class]:
@@ -45,7 +47,7 @@ for wow_class in posts_tagged_dict:
             auth_score_array = numpy.array(
                 [post.post_score for post in posts_tagged_dict[wow_class][pt][auth] if post.post_score != 0.0])
             auth_sc = numpy.mean(auth_score_array)
-            auths_scored_dict[wow_class][pt][auth] = 0.0
+            # auths_scored_dict[wow_class][pt][auth] = 0.0
             if not math.isnan(auth_sc):
                 auths_scored_dict[wow_class][pt][auth] = auth_sc
             progress_auth += 1
