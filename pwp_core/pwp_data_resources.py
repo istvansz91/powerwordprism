@@ -3,11 +3,11 @@ from pprint import pprint
 from urllib import request
 import json
 import time
-import datetime
 
 RESOURCES_PATH_LINKS = 'Resources/Corpora/EU/Links/'
 RESOURCES_PATH_POSTS = 'Resources/Corpora/EU/Posts/'
 RESOURCES_PATH_SCORES = 'Resources/Corpora/EU/Scores/'
+RESOURCES_PATH_SCORES_BY_DATE = 'Resources/Corpora/EU/Scores/ByDate/'
 RESOURCES_PATH_ONTOLOGY = 'Resources/Ontology/'
 RESOURCES_PATH_CLASSIFICATION = 'Resources/Corpora/EU/Classification/'
 RESOURCES_PATH_ANNOTATIONS = 'Resources/Manual annotation/'

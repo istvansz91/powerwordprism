@@ -3,6 +3,7 @@ from os import listdir
 from os.path import isfile, join
 import re
 import datetime
+from dateutil import parser
 
 SCORE_AUTH_FILENAME = 'complete_scores_by_author'
 SCORE_PT_FILENAME = 'complete_scores_by_post_type'
@@ -11,6 +12,10 @@ SCORE_POST_FILENAME = 'post_scores'
 SENTI_ALG_VADER = 'Vader'
 SENTI_ALG_SWN = 'SWN'
 SENTI_ALG = SENTI_ALG_VADER
+
+
+def get_date_from_string(date_string):
+    return parser.parse(date_string, parser.parserinfo(True, False))
 
 
 def get_file_name(alg, file_name, timestamp_string=None):
