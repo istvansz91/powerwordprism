@@ -9,14 +9,9 @@
 </head>
 <body>
 
-
-
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="Author.json"></script>
-
-
-
 
  <div id="holder">																																																							
  <div id="frame">
@@ -27,8 +22,9 @@
   <table>
     <tr>
       <td><a href="index.htm"> Home </a> </td>
+      <td><a href="Evaluation.htm"> Text Mining Process </a> </td>
       <td><a href="main.html"> Class Sentiment Analysis</a> </td>
-      <td><a href="#"> Author Sentiment Analysis </a> </td>
+      
     </tr>
   </table>
 </div>
@@ -44,7 +40,7 @@
     <form method="post" action="#">
       <table>
         <tr>
-          <td style="text-align:center"><b><br />Istvan Szabo</b></td>
+          <td style="text-align:center"><b><br />Istvan Szabo</b></td>          
         </tr>
         <tr>
           <td style="text-align:center"><b><br />Soroosh Mashal</b></td>          
@@ -90,7 +86,7 @@
           <h1> Author Contacts </h1>
           <ul>
             <li> <a href="http://www.fim.uni-passau.de/en/digital-libraries/team/details/?module=Persondetails&target=90518&source=90518&config_id=7159c8d0d2d665b0640649fe924a184b&range_id=adeb76e7b9b9ddc19a5fd6e1c28417cf&username=donasc01&hash=407081029"> André Freitas </a> </li>
-            <li> <a href="#"> Istvan Svezbo </a> </li>
+            <li> <a href="#"> Istvan Szabo </a> </li>
             <li> <a href="#"> Soroosh Mashal </a> </li>            
           </ul>
         </div>
@@ -100,28 +96,12 @@
 
 <!-- CONTENT  -->
     <div id="middle">
-      <div> <h2>Class Sentiment Analysis</h2> <br />
+      <div> <h2>Sentiment Analysis Results </h2> <br />
         <br />
-        <h3> Sentiment Analysis Procedure </h3>
-        	<p>
-        	The project is written with Python programming languages and it uses Vader nltk as its main sentiment analysis tool.<br />
-        	<br />
-        	The first stage was to gather corpora from Blizzard forums using "beautiful soup" python library.
-        	Afterwards, the data was structured as JSON files and it was annotated using vader. <br />
-        	To increase the accuracy and omit negative idea effect, we grouped up posts by authors and got an average for every author. <br /> 
-        	<br />
-        	In addition to that, more adjustment was done on the data to increase sentiment analysis result accuracy. For example, sentimets between -0.5 to 0.5 -with -1 being lowest and 1 being highest- has been removed in the last scoring, since they were not presenting any significant sentiment in this domain.<br /> 
-        	<br />
-        	In order to dig deeper into class sentiment analysis to have a more clear idea of each aspect of gameplay, a classification was applied on the posts to categorize them based on PvP and PvE aspects. Later we improved ontology and we were able to do this classification based on instances types in each type of gameplay. This can ultimatly provide game developers with exact point to focus on class designs. <br />
-        	<br />
-        	The accuracy was manually monitored in small stages during classification process, however, after finalizing last stage of annotation, more than a thousand posts were randomly selected from different aspects and were manually annotated. The results were compared with Vader Sentiment Analysis annotations to provide the last classification accuracy.
-        	</p>
-        	<br />
+        Below you may find results of sentiment analysis based on classes in different instances.
       </div>
       <div> <br />
-        <h3> Sentiment Analysis Results </h3>
-        
-
+         
 <table>
 	<tr>
 		<td><div id="DemonHunter"></div></td>

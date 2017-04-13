@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Power Word Prism</title>
 <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
 </head>
 <body>
  <div id="holder">																																																																																																																																																																																																																																																																																																																				
@@ -17,7 +18,7 @@
     <tr>
       <td><a href="index.htm"> Home </a> </td>
       <td><a href="Evaluation.htm"> Text Mining Process </a> </td>
-      <td><a href="main.html"> Class Sentiment Analysis</a> </td>      
+      <td><a href="main.html"> Class Sentiment Analysis</a> </td>
     </tr>
   </table>
 </div>
@@ -89,31 +90,61 @@
 
 <!-- CONTENT  -->
     <div id="middle">
-      <div> <h2>World of Warcraft</h2> <br />
+      <div> <h2>Text Mining</h2> <br />
         <br />
-        <h3> A quick note about the game and classes </h3>
+        <h3> Sentiment Analysis Procedure </h3>
         <ul>
-            <li><strong>Game review</strong><br />
-              World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. It is the fourth released game set in the fantasy Warcraft universe, which was first introduced by Warcraft: Orcs and Humans in 1994. World of Warcraft takes place within the Warcraft world of Azeroth, approximately four years after the events at the conclusion of Blizzard's previous Warcraft release, Warcraft III: The Frozen Throne. Blizzard Entertainment announced World of Warcraft on September 2, 2001. The game was released on November 23, 2004, on the 10th anniversary of the Warcraft franchise.<br />
-              With a peak of 12 million subscriptions in October 2010 and Blizzard's final report of 5.5 million subscriptions in October 2015, World of Warcraft remains the world's most-subscribed MMORPG, and holds the Guinness World Record for the most popular MMORPG by subscribers. In January 2014, Blizzard announced that more than 100 million accounts had been created over the game's lifetime.
+            <li><strong>Programming implications and progress</strong><br />
+              <p>
+          The project is written with Python programming languages and it uses Vader nltk as its main sentiment analysis tool.<br />
+          <br />
+          The first stage was to gather corpora from Blizzard forums using "beautiful soup" python library.
+          Afterwards, the data was structured as JSON files and it was annotated using vader. <br />
+          To increase the accuracy and omit negative idea effect, we grouped up posts by authors and got an average for every author. <br /> 
+          <br />
+          In addition to that, more adjustment was done on the data to increase sentiment analysis result accuracy. For example, sentimets between -0.5 to 0.5 -with -1 being lowest and 1 being highest- has been removed in the last scoring, since they were not presenting any significant sentiment in this domain.<br /> 
+          <br />
+          In order to dig deeper into class sentiment analysis to have a more clear idea of each aspect of gameplay, a classification was applied on the posts to categorize them based on PvP and PvE aspects. Later we improved ontology and we were able to do this classification based on instances types in each type of gameplay. This can ultimatly provide game developers with exact point to focus on class designs. <br />
+          <br />
+          
+          </p>
+          <br />
               </li>
-          <li><strong>Class review</strong><br />
-            From knights in shiny armor to skulking stalkers and cunning spellcasters, each class in World of Warcraft presents unique challenges and gameplay for you to master. <br />
-            Choosing what class you want to be in World of Warcraft is probably the most important choice you will make about your character. Unlike races - which can be changed for a fee - classes are permanent, and cannot be changed once a character has been created. Well, what exactly is a class? A character's class determines what abilities and powers are available to them; what weapons and armor they will use; what combat roles they can fulfil; and to a significant extent their strengths, weaknesses and playstyle. Your choice of class will affect how you play your character, and how you play with others, and each class has something very different to offer.</li>
-        </ul>
-        <br />
+
       </div>
       <div id="news"> <br />
-        <h3> Sentiment Analysis </h3>
+                <h5> Gold Standard </h5>
+
         <div>
-       
-          <h5> Power Word Prism </h5>
-           
-            <p> From the dawn of Wow, players have always used Blizzard forum to express their ideas about classes they were playing. Blizzard has been using these feedbacks to redesign class abilities to maintain a balance between classes in the world, giving chance to all classes to be played equally.
-            <br />
-            Sentiment analysis a the process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer's attitude towards a particular topic, product, etc. is positive, negative, or neutral.
-            <br />
-            It was evident that Blizzard can use sentiment analysis to increase their customer satisfaction in a great deal. That's why we decided to start this project to extract ideas in different aspects of the game based on classes. </p>
+                <br />
+          The accuracy was manually monitored in small stages during classification process, however, after finalizing last stage of annotation, more than a 600 posts were randomly selected from different aspects and were manually annotated. The results were compared with Vader Sentiment Analysis annotations to provide the last classification accuracy.
+
+          <table>
+            <tr>
+              <th>Class Name</th>
+              <th>accuracy</th>
+              <th>good score</th>
+              <th>good game type</th>
+              <th>Number of posts</th>
+            </tr>
+            <tr>
+              <td>Demon Hunter</td>
+              <td>71.13%</td>
+              <td>88.39%</td>
+              <td>79.76%</td>
+              <td>336</td>
+            </tr>
+            <tr>
+              <td>Death Knight</td>
+              <td>78.00%</td>
+              <td>82.67%</td>
+              <td>93.67%</td>
+              <td>300</td>
+            </tr>
+
+          </table>
+        <br />
+
               <span class="edit"> written by Soroosh and Istvan on April 2017 </span>
              </div>
         </div>
